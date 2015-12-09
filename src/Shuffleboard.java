@@ -1,5 +1,3 @@
-package edu.calvin.cs262;
-
 import com.sun.jersey.api.container.httpserver.HttpServerFactory;
 import com.sun.net.httpserver.HttpServer;
 
@@ -9,6 +7,7 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.ResultSet;
 import java.sql.Statement;
+import java.util.ArrayList;
 import java.util.StringTokenizer;
 
 /**
@@ -18,24 +17,13 @@ import java.util.StringTokenizer;
  * @version 12/1/2015
  */
 @Path("/shuffle")
-public class ShuffleBoardResource {
-
-    /**
-     * Not needed right now, but kept just in case.
-     * @return a simple hello-world string
-     */
- /*   @SuppressWarnings("SameReturnValue")
-    @GET
-    @Path("/")
-    @Produces("text/plain")
-    public String getClichedMessage() {return "Testing!";}*/
-
+public class Shuffleboard {
     /**
      * Constants for a local Postgresql server with the shuffleboard database
      */
-    private static final String DB_URI = "jdbc:postgresql://localhost:5432/shuffleboard";
+    private static final String DB_URI = "jdbc:postgresql://localhost:9998/shuffleboard";
     private static final String DB_LOGIN_ID = "postgres";
-    private static final String DB_PASSWORD = "postgres";
+    private static final String DB_PASSWORD = "login";
 
     /**
      * Gets the user that has the parameter id
@@ -55,6 +43,36 @@ public class ShuffleBoardResource {
             ResultSet resultSet = statement.executeQuery("SELECT * FROM Users WHERE id=" + id);
             if (resultSet.next()) {
                 result = resultSet.getInt(1) + " " + resultSet.getString(2) + " " + resultSet.getString(3);
+            } else {
+                result = "nothing found...";
+            }
+            resultSet.close();
+            statement.close();
+            connection.close();
+        } catch (Exception e) {
+            result = e.getMessage();
+        }
+        return result;
+    }
+
+    /**
+     * Gets the user that has the parameter name
+     *
+     * @param username a user name in the shuffleboard database
+     * @return a string version of the user record, if any, with the given name
+     */
+    @GET
+    @Path("/userName/{username}")
+    @Produces("text/plain")
+    public String getPlayer(@PathParam("username") String username) {
+        String result;
+        try {
+            Class.forName("org.postgresql.Driver");
+            Connection connection = DriverManager.getConnection(DB_URI, DB_LOGIN_ID, DB_PASSWORD);
+            Statement statement = connection.createStatement();
+            ResultSet resultSet = statement.executeQuery("SELECT id FROM Users WHERE name='" + username + "'");
+            if (resultSet.next()) {
+                result = resultSet.getInt(1)+"";
             } else {
                 result = "nothing found...";
             }
@@ -94,6 +112,41 @@ public class ShuffleBoardResource {
     }
 
     /**
+     * Gets the users that have shared their calendar with the specified user
+     *
+     * @param id a user id in the shuffleboard database
+     * @return a string version of the user's friends
+     */
+    @GET
+    @Path("/user/{id}/friended")
+    @Produces("text/plain")
+    public String getFriended(@PathParam("id") int id) {
+        String result = "";
+        try {
+            Class.forName("org.postgresql.Driver");
+            Connection connection = DriverManager.getConnection(DB_URI, DB_LOGIN_ID, DB_PASSWORD);
+            Statement statement = connection.createStatement();
+            ResultSet outFriends = statement.executeQuery("SELECT name FROM Friends, Users WHERE userID=" + id + " AND friendID = ID");
+            ArrayList<String> outs = new ArrayList<String>(1);
+            while (outFriends.next()) {
+                outs.add(outFriends.getString(1));
+            }
+            outFriends.close();
+            ResultSet resultSet = statement.executeQuery("SELECT name FROM Friends, Users WHERE friendID=" + id + " AND userID = ID");
+            while (resultSet.next()) {
+                if (!outs.contains(resultSet.getString(1)))
+                    result += resultSet.getString(1) + ",";
+            }
+            resultSet.close();
+            statement.close();
+            connection.close();
+        } catch (Exception e) {
+            result = e.getMessage();
+        }
+        return result;
+    }
+
+    /**
      * Gets the friends of the user that has the parameter id
      *
      * @param id a user id in the shuffleboard database
@@ -110,7 +163,7 @@ public class ShuffleBoardResource {
             Statement statement = connection.createStatement();
             ResultSet resultSet = statement.executeQuery("SELECT name FROM Friends, Users WHERE userID=" + id + " AND friendID = ID");
             while (resultSet.next()) {
-                result += resultSet.getString(1) + "\n";
+                result += resultSet.getString(1) + ",";
             } if (result == ""){
                 result = "This user has no friends.";
             }
@@ -141,8 +194,8 @@ public class ShuffleBoardResource {
             ResultSet resultSet = statement.executeQuery("SELECT DISTINCT StaticEvents.ID, label, startTime, stopTime, days " +
                     "FROM Users, StaticEvents WHERE userID=" + id + " ORDER BY StaticEvents.ID");
             while (resultSet.next()) {
-                result += resultSet.getInt(1) + " " + resultSet.getString(2) + " " + resultSet.getInt(3)
-                        + " " + resultSet.getInt(4) + " " + resultSet.getString(5) + "\n";
+                result += resultSet.getInt(1) + "__" + resultSet.getString(2) + "__" + resultSet.getInt(3)
+                        + "__" + resultSet.getInt(4) + "__" + resultSet.getString(5) + "___";
             } if (result == ""){
                 result = "This user has no static events.";
             }
@@ -175,8 +228,8 @@ public class ShuffleBoardResource {
             ResultSet resultSet = statement.executeQuery("SELECT DISTINCT DynamicEvents.ID, label, timesPerWeek, length, days " +
                     "FROM Users, DynamicEvents WHERE userID=" + id + " ORDER BY DynamicEvents.ID");
             while (resultSet.next()) {
-                result += resultSet.getInt(1) + " " + resultSet.getString(2) + " " + resultSet.getInt(3)
-                        + " " + resultSet.getString(4) + " " + resultSet.getString(5) + "\n";
+                result += resultSet.getInt(1) + "__" + resultSet.getString(2) + "__" + resultSet.getInt(3)
+                        + "__" + resultSet.getString(4) + "__" + resultSet.getString(5) + "___";
             } if (result == ""){
                 result = "This user has no dynamic events.";
             }
@@ -220,6 +273,90 @@ public class ShuffleBoardResource {
             } else {
                 statement.executeUpdate("INSERT INTO Users VALUES (" + id + ", '" + name + "', '" + passwordHash + "')");
                 result = "User " + id + " added...";
+            }
+            resultSet.close();
+            statement.close();
+            connection.close();
+        } catch (Exception e) {
+            result = e.getMessage();
+        }
+        return result;
+    }
+
+    /**
+     * PUT method for creating a friendship between the user and another user - If the
+     * friendship already exists, nothing happens. (Even if a user changes their name, their ID will stay the same
+     * therefore, an option to update the friendship doesn't make sense.)
+     *
+     * @param id         the ID for the accepting user
+     * @param friendName  the ID of the user who had sent the request
+     * @return status message
+     */
+    @PUT
+    @Path("/user/{id}/friendBy/{friendName}")
+    @Consumes("text/plain")
+    @Produces("text/plain")
+    public String putFriendBy(@PathParam("id") int id, @PathParam("friendName") String friendName) {
+        String result;
+        try {
+            Class.forName("org.postgresql.Driver");
+            Connection connection = DriverManager.getConnection(DB_URI, DB_LOGIN_ID, DB_PASSWORD);
+            Statement statement = connection.createStatement();
+            ResultSet resultSet = statement.executeQuery("SELECT * FROM Users WHERE name='" + friendName + "'");
+            if (resultSet.next()) {
+                int friendID = resultSet.getInt(1);
+                ResultSet resultSet1 = statement.executeQuery("SELECT * FROM Friends WHERE userID=" + id + "AND friendID=" + friendID);
+                if (resultSet1.next()) {
+                    result = "Friendship already exists.";
+                } else {
+                    statement.executeUpdate("INSERT INTO Friends VALUES (" + id + ", '" + friendID + "')");
+                    result = "Friendship between the users with IDs of " + id + " and " + friendID + " added!";
+                }
+                resultSet1.close();
+            } else {
+                result = "User does not exist";
+            }
+            resultSet.close();
+            statement.close();
+            connection.close();
+        } catch (Exception e) {
+            result = e.getMessage();
+        }
+        return result;
+    }
+
+    /**
+     * PUT method for creating a friendship between the user and another user - If the
+     * friendship already exists, nothing happens. (Even if a user changes their name, their ID will stay the same
+     * therefore, an option to update the friendship doesn't make sense.)
+     *
+     * @param id         the ID for user, assumed to be unique
+     * @param friendName  the ID of the user for the user to become friends with
+     * @return status message
+     */
+    @PUT
+    @Path("/user/{id}/friendName/add/{friendName}")
+    @Consumes("text/plain")
+    @Produces("text/plain")
+    public String putFriends(@PathParam("id") int id, @PathParam("friendName") String friendName) {
+        String result;
+        try {
+            Class.forName("org.postgresql.Driver");
+            Connection connection = DriverManager.getConnection(DB_URI, DB_LOGIN_ID, DB_PASSWORD);
+            Statement statement = connection.createStatement();
+            ResultSet resultSet = statement.executeQuery("SELECT * FROM Users WHERE name='" + friendName + "'");
+            if (resultSet.next()) {
+                int friendID = resultSet.getInt(1);
+                ResultSet resultSet1 = statement.executeQuery("SELECT * FROM Friends WHERE userID=" + id + "AND friendID=" + friendID);
+                if (resultSet1.next()) {
+                    result = "Friendship already exists.";
+                } else {
+                    statement.executeUpdate("INSERT INTO Friends VALUES (" + id + ", '" + friendID + "')");
+                    result = "Friendship between the users with IDs of " + id + " and " + friendID + " added!";
+                }
+                resultSet1.close();
+            } else {
+                result = "User does not exist";
             }
             resultSet.close();
             statement.close();
@@ -352,6 +489,49 @@ public class ShuffleBoardResource {
     }
 
     /**
+     * PUT method for creating a dynamic event for the user - If the
+     * event already exists, replace it with the new field values.
+     *
+     * @param id         the ID for the user
+     * @param stuff
+     * @return status message
+     */
+    @PUT
+    @Path("/user/{id}/events/dynamic/addLong/{stuff}")
+    @Consumes("text/plain")
+    @Produces("text/plain")
+    public String putDynamicEventLong(@PathParam("id") int id, @PathParam("stuff") String stuff) {
+        String result = "";
+        String[] stuffs = stuff.split("qwe");
+//        stuffs[1].replace("x", ".");
+        stuffs[3] = stuffs[3].replace("%20", " ");
+        try {
+            Class.forName("org.postgresql.Driver");
+            Connection connection = DriverManager.getConnection(DB_URI, DB_LOGIN_ID, DB_PASSWORD);
+            Statement statement = connection.createStatement();
+/*            ResultSet resultSet = statement.executeQuery("SELECT * FROM DynamicEvents WHERE userID=" + id + " AND ID=" + dynamicID);
+            //Unfortunately, I had to break up the updates for them to work
+            if (resultSet.next()) {
+                statement.executeUpdate("UPDATE DynamicEvents SET timesPerWeek='" + timesPerWeek + "' WHERE ID=" + dynamicID);
+                statement.executeUpdate("UPDATE DynamicEvents SET length='" + length + "' WHERE ID=" + dynamicID);
+                statement.executeUpdate("UPDATE DynamicEvents SET days='" + days + "' WHERE ID=" + dynamicID);
+                statement.executeUpdate("UPDATE DynamicEvents SET label='" + label + "' WHERE ID=" + dynamicID);
+                result = "Dynamic event " + dynamicID + " updated...";
+            } else {*/
+                statement.executeUpdate("INSERT INTO DynamicEvents VALUES (" + id + ", '" + stuffs[0] + "', '" + stuffs[1] +
+                        "', '" + stuffs[2] + "', '" + stuffs[3] + "')");
+                result = "Static event " + stuffs[3] + " for the user with ID " + id + " added...";
+//            }
+//            resultSet.close();
+            statement.close();
+            connection.close();
+        } catch (Exception e) {
+            result = e.getMessage();
+        }
+        return result;
+    }
+
+    /**
      * POST method for creating an instance of User with a new, unique ID
      * number.
      * <p/>
@@ -424,11 +604,52 @@ public class ShuffleBoardResource {
      * The method creates a new, unique ID by querying the StaticEvents table for the
      * largest ID and adding 1 to that.
      *
+     * @param
+     * @return status message
+     */
+    @PUT
+    @Path("/user/{id}/events/static/addLong/{stuff}")
+    @Consumes("text/plain")
+    @Produces("text/plain")
+    public String putStaticEventLong(@PathParam("id") int id, @PathParam("stuff") String stuff) {
+        String result;
+        int staticID = -1;
+        String[] stuffs = stuff.split("qwe");
+        stuffs[3] = stuffs[3].replace("%20", " ");
+        try {
+            Class.forName("org.postgresql.Driver");
+            Connection connection = DriverManager.getConnection(DB_URI, DB_LOGIN_ID, DB_PASSWORD);
+            Statement statement = connection.createStatement();
+            ResultSet resultSet = statement.executeQuery("SELECT MAX(ID) FROM StaticEvents");
+            if (resultSet.next()) {
+                staticID = resultSet.getInt(1) + 1;
+            }
+            statement.executeUpdate("INSERT INTO StaticEvents VALUES (" + id + ", " + stuffs[0] + ", " + stuffs[1] +
+                    ", '" + stuffs[2] + "', '" + stuffs[3] + "')");
+            System.out.println("INSERT INTO StaticEvents VALUES (" + id + ", " + stuffs[0] + ", " + stuffs[1] +
+                            ", '" + stuffs[2] + "', '" + stuffs[3] + "')");
+            resultSet.close();
+            statement.close();
+            connection.close();
+            result = "Static event " + staticID + " for the user with ID " + id + " added...";
+        } catch (Exception e) {
+            result = e.getMessage();
+        }
+        return result;
+    }
+
+    /**
+     * POST method for creating a static event, with a new, unique id, for the User whose userid is the path parameter
+     * number.
+     * <p/>
+     * The method creates a new, unique ID by querying the StaticEvents table for the
+     * largest ID and adding 1 to that.
+     *
      * @param UserLine a string representation of the player in the format: startTime stopTime days label
      * @return status message
      */
     @POST
-    @Path("/user/{id}/events/static/add")
+    @Path("/user/{id}/events/static/add/")
     @Consumes("text/plain")
     @Produces("text/plain")
     public String postStaticEvent(@PathParam("id") int id, String UserLine) {
@@ -601,11 +822,11 @@ public class ShuffleBoardResource {
      * @throws IOException
      */
     public static void main(String[] args) throws IOException {
-        HttpServer server = HttpServerFactory.create("http://localhost:9998/");
+        HttpServer server = HttpServerFactory.create("http://153.106.90.117:9999/");
         server.start();
 
         System.out.println("Server running...");
-        System.out.println("Visit: http://localhost:9998/shuffle");
+        System.out.println("Visit: http://localhost:9999/shuffle");
         System.out.println("Hit return to stop...");
         //noinspection ResultOfMethodCallIgnored
         System.in.read();

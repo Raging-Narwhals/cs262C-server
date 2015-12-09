@@ -502,7 +502,7 @@ public class Shuffleboard {
     @Produces("text/plain")
     public String putDynamicEventLong(@PathParam("id") int id, @PathParam("stuff") String stuff) {
         String result = "";
-        String[] stuffs = stuff.split("qwe");
+        String[] stuffs = stuff.split("__");
 //        stuffs[1].replace("x", ".");
         stuffs[3] = stuffs[3].replace("%20", " ");
         try {
@@ -614,7 +614,7 @@ public class Shuffleboard {
     public String putStaticEventLong(@PathParam("id") int id, @PathParam("stuff") String stuff) {
         String result;
         int staticID = -1;
-        String[] stuffs = stuff.split("qwe");
+        String[] stuffs = stuff.split("__");
         stuffs[3] = stuffs[3].replace("%20", " ");
         try {
             Class.forName("org.postgresql.Driver");

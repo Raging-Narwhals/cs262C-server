@@ -64,7 +64,7 @@ public class Shuffleboard {
     @GET
     @Path("/userName/{username}")
     @Produces("text/plain")
-    public String getPlayer(@PathParam("username") String username) {
+    public String getPlayerByName(@PathParam("username") String username) {
         String result;
         try {
             Class.forName("org.postgresql.Driver");
@@ -126,17 +126,20 @@ public class Shuffleboard {
             Class.forName("org.postgresql.Driver");
             Connection connection = DriverManager.getConnection(DB_URI, DB_LOGIN_ID, DB_PASSWORD);
             Statement statement = connection.createStatement();
+            // Get the users that this user has listed as a friend
             ResultSet outFriends = statement.executeQuery("SELECT name FROM Friends, Users WHERE userID=" + id + " AND friendID = ID");
             ArrayList<String> outs = new ArrayList<String>(1);
             while (outFriends.next()) {
                 outs.add(outFriends.getString(1));
             }
             outFriends.close();
+            // Get the users that have this user listed as a friend
             ResultSet resultSet = statement.executeQuery("SELECT name FROM Friends, Users WHERE friendID=" + id + " AND userID = ID");
             while (resultSet.next()) {
                 if (!outs.contains(resultSet.getString(1)))
                     result += resultSet.getString(1) + ",";
             }
+            if (result == "") result = "This user has no friends";
             resultSet.close();
             statement.close();
             connection.close();
@@ -288,48 +291,6 @@ public class Shuffleboard {
      * friendship already exists, nothing happens. (Even if a user changes their name, their ID will stay the same
      * therefore, an option to update the friendship doesn't make sense.)
      *
-     * @param id         the ID for the accepting user
-     * @param friendName  the ID of the user who had sent the request
-     * @return status message
-     */
-    @PUT
-    @Path("/user/{id}/friendBy/{friendName}")
-    @Consumes("text/plain")
-    @Produces("text/plain")
-    public String putFriendBy(@PathParam("id") int id, @PathParam("friendName") String friendName) {
-        String result;
-        try {
-            Class.forName("org.postgresql.Driver");
-            Connection connection = DriverManager.getConnection(DB_URI, DB_LOGIN_ID, DB_PASSWORD);
-            Statement statement = connection.createStatement();
-            ResultSet resultSet = statement.executeQuery("SELECT * FROM Users WHERE name='" + friendName + "'");
-            if (resultSet.next()) {
-                int friendID = resultSet.getInt(1);
-                ResultSet resultSet1 = statement.executeQuery("SELECT * FROM Friends WHERE userID=" + id + "AND friendID=" + friendID);
-                if (resultSet1.next()) {
-                    result = "Friendship already exists.";
-                } else {
-                    statement.executeUpdate("INSERT INTO Friends VALUES (" + id + ", '" + friendID + "')");
-                    result = "Friendship between the users with IDs of " + id + " and " + friendID + " added!";
-                }
-                resultSet1.close();
-            } else {
-                result = "User does not exist";
-            }
-            resultSet.close();
-            statement.close();
-            connection.close();
-        } catch (Exception e) {
-            result = e.getMessage();
-        }
-        return result;
-    }
-
-    /**
-     * PUT method for creating a friendship between the user and another user - If the
-     * friendship already exists, nothing happens. (Even if a user changes their name, their ID will stay the same
-     * therefore, an option to update the friendship doesn't make sense.)
-     *
      * @param id         the ID for user, assumed to be unique
      * @param friendName  the ID of the user for the user to become friends with
      * @return status message
@@ -445,6 +406,47 @@ public class Shuffleboard {
         return result;
     }
 
+    //TODO make this look for duplicates and stuff
+    /**
+     * POST method for creating a static event, with a new, unique id, for the User whose userid is the path parameter
+     * number.
+     * <p/>
+     * The method creates a new, unique ID by querying the StaticEvents table for the
+     * largest ID and adding 1 to that.
+     *
+     * @param id        the ID for the user
+     * @param data      The data for the event in string format separated by "__"
+     * @return status message
+     */
+    @PUT
+    @Path("/user/{id}/events/static/addLong/{data}")
+    @Consumes("text/plain")
+    @Produces("text/plain")
+    public String putStaticEventLong(@PathParam("id") int id, @PathParam("data") String data) {
+        String result;
+        int staticID = -1;
+        String[] dataVals = data.split("__");
+        dataVals[3] = dataVals[3].replace("%20", " ");
+        try {
+            Class.forName("org.postgresql.Driver");
+            Connection connection = DriverManager.getConnection(DB_URI, DB_LOGIN_ID, DB_PASSWORD);
+            Statement statement = connection.createStatement();
+            ResultSet resultSet = statement.executeQuery("SELECT MAX(ID) FROM StaticEvents");
+            if (resultSet.next()) {
+                staticID = resultSet.getInt(1) + 1;
+            }
+            statement.executeUpdate("INSERT INTO StaticEvents VALUES (" + id + ", " + dataVals[0] + ", " + dataVals[1] +
+                    ", '" + dataVals[2] + "', '" + dataVals[3] + "')");
+            resultSet.close();
+            statement.close();
+            connection.close();
+            result = "Static event " + staticID + " for the user with ID " + id + " added...";
+        } catch (Exception e) {
+            result = e.getMessage();
+        }
+        return result;
+    }
+
     /**
      * PUT method for creating a dynamic event for the user - If the
      * event already exists, replace it with the new field values.
@@ -488,23 +490,23 @@ public class Shuffleboard {
         return result;
     }
 
+    //TODO make this look for duplicates and stuff
     /**
      * PUT method for creating a dynamic event for the user - If the
      * event already exists, replace it with the new field values.
      *
-     * @param id         the ID for the user
-     * @param stuff
+     * @param id        the ID for the user
+     * @param data      The data for the event in string format separated by "__"
      * @return status message
      */
     @PUT
-    @Path("/user/{id}/events/dynamic/addLong/{stuff}")
+    @Path("/user/{id}/events/dynamic/addLong/{data}")
     @Consumes("text/plain")
     @Produces("text/plain")
-    public String putDynamicEventLong(@PathParam("id") int id, @PathParam("stuff") String stuff) {
+    public String putDynamicEventLong(@PathParam("id") int id, @PathParam("data") String data) {
         String result = "";
-        String[] stuffs = stuff.split("__");
-//        stuffs[1].replace("x", ".");
-        stuffs[3] = stuffs[3].replace("%20", " ");
+        String[] dataVals = data.split("__");
+        dataVals[3] = dataVals[3].replace("%20", " ");
         try {
             Class.forName("org.postgresql.Driver");
             Connection connection = DriverManager.getConnection(DB_URI, DB_LOGIN_ID, DB_PASSWORD);
@@ -518,9 +520,9 @@ public class Shuffleboard {
                 statement.executeUpdate("UPDATE DynamicEvents SET label='" + label + "' WHERE ID=" + dynamicID);
                 result = "Dynamic event " + dynamicID + " updated...";
             } else {*/
-                statement.executeUpdate("INSERT INTO DynamicEvents VALUES (" + id + ", '" + stuffs[0] + "', '" + stuffs[1] +
-                        "', '" + stuffs[2] + "', '" + stuffs[3] + "')");
-                result = "Static event " + stuffs[3] + " for the user with ID " + id + " added...";
+                statement.executeUpdate("INSERT INTO DynamicEvents VALUES (" + id + ", '" + dataVals[0] + "', '" + dataVals[1] +
+                        "', '" + dataVals[2] + "', '" + dataVals[3] + "')");
+                result = "Static event " + dataVals[3] + " for the user with ID " + id + " added...";
 //            }
 //            resultSet.close();
             statement.close();
@@ -591,47 +593,6 @@ public class Shuffleboard {
             statement.close();
             connection.close();
             result = "Friendship between the users with IDs of " + id + " and " + friendID + " added!";
-        } catch (Exception e) {
-            result = e.getMessage();
-        }
-        return result;
-    }
-
-    /**
-     * POST method for creating a static event, with a new, unique id, for the User whose userid is the path parameter
-     * number.
-     * <p/>
-     * The method creates a new, unique ID by querying the StaticEvents table for the
-     * largest ID and adding 1 to that.
-     *
-     * @param
-     * @return status message
-     */
-    @PUT
-    @Path("/user/{id}/events/static/addLong/{stuff}")
-    @Consumes("text/plain")
-    @Produces("text/plain")
-    public String putStaticEventLong(@PathParam("id") int id, @PathParam("stuff") String stuff) {
-        String result;
-        int staticID = -1;
-        String[] stuffs = stuff.split("__");
-        stuffs[3] = stuffs[3].replace("%20", " ");
-        try {
-            Class.forName("org.postgresql.Driver");
-            Connection connection = DriverManager.getConnection(DB_URI, DB_LOGIN_ID, DB_PASSWORD);
-            Statement statement = connection.createStatement();
-            ResultSet resultSet = statement.executeQuery("SELECT MAX(ID) FROM StaticEvents");
-            if (resultSet.next()) {
-                staticID = resultSet.getInt(1) + 1;
-            }
-            statement.executeUpdate("INSERT INTO StaticEvents VALUES (" + id + ", " + stuffs[0] + ", " + stuffs[1] +
-                    ", '" + stuffs[2] + "', '" + stuffs[3] + "')");
-            System.out.println("INSERT INTO StaticEvents VALUES (" + id + ", " + stuffs[0] + ", " + stuffs[1] +
-                            ", '" + stuffs[2] + "', '" + stuffs[3] + "')");
-            resultSet.close();
-            statement.close();
-            connection.close();
-            result = "Static event " + staticID + " for the user with ID " + id + " added...";
         } catch (Exception e) {
             result = e.getMessage();
         }

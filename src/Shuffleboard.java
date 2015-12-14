@@ -506,6 +506,7 @@ public class Shuffleboard {
     public String putDynamicEventLong(@PathParam("id") int id, @PathParam("data") String data) {
         String result = "";
         String[] dataVals = data.split("__");
+        dataVals[2] = dataVals[2].replace("_", ".");
         dataVals[3] = dataVals[3].replace("%20", " ");
         try {
             Class.forName("org.postgresql.Driver");
@@ -532,6 +533,41 @@ public class Shuffleboard {
         }
         return result;
     }
+
+    /**
+     * PUT method for creating a dynamic event for the user - If the
+     * event already exists, replace it with the new field values.
+     *
+     * @param id        the ID for the user
+     * @param eventID   the ID for the event being changed
+     * @param data      The data for the event in string format separated by "__"
+     * @return status message
+     */
+    @PUT
+    @Path("/user/{id}/events/dynamic/edit/{eventID}/{data}")
+    @Consumes("text/plain")
+    @Produces("text/plain")
+    public String editDynamicEvent(@PathParam("id") int id, @PathParam("eventID") int eventID, @PathParam("data") String data) {
+        String result = "";
+        String[] dataVals = data.split("__");
+        dataVals[3] = dataVals[3].replace("%20", " ");
+        try {
+            Class.forName("org.postgresql.Driver");
+            Connection connection = DriverManager.getConnection(DB_URI, DB_LOGIN_ID, DB_PASSWORD);
+            Statement statement = connection.createStatement();
+                statement.executeUpdate("UPDATE DynamicEvents SET timesPerWeek='" + dataVals[0] + "' WHERE ID=" + eventID + " AND userID=" + id);
+                statement.executeUpdate("UPDATE DynamicEvents SET length='" + dataVals[1] + "' WHERE ID=" + eventID + " AND userID=" + id);
+                statement.executeUpdate("UPDATE DynamicEvents SET days='" + dataVals[2] + "' WHERE ID=" + eventID + " AND userID=" + id);
+                statement.executeUpdate("UPDATE DynamicEvents SET label='" + dataVals[3] + "' WHERE ID=" + eventID + " AND userID=" + id);
+                result = "Dynamic event " + eventID + " updated...";
+            statement.close();
+            connection.close();
+        } catch (Exception e) {
+            result = e.getMessage();
+        }
+        return result;
+    }
+
 
     /**
      * POST method for creating an instance of User with a new, unique ID
@@ -783,7 +819,7 @@ public class Shuffleboard {
      * @throws IOException
      */
     public static void main(String[] args) throws IOException {
-        HttpServer server = HttpServerFactory.create("http://153.106.90.117:9999/");
+        HttpServer server = HttpServerFactory.create("http://153.106.160.71:9999/");
         server.start();
 
         System.out.println("Server running...");

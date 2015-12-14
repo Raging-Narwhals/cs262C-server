@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d5a37c43-e585-4ffd-bcf4-4ac1aeda207e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Shuffleboard/Shuffleboard.class" afterPath="$PROJECT_DIR$/out/production/Shuffleboard/Shuffleboard.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Shuffleboard.java" afterPath="$PROJECT_DIR$/src/Shuffleboard.java" />
@@ -31,13 +30,14 @@
       <file leaf-file-name="Shuffleboard.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Shuffleboard.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.67782426">
-              <caret line="796" column="5" selection-start-line="796" selection-start-column="5" selection-end-line="796" selection-end-column="5" />
+            <state vertical-scroll-proportion="0.20072992">
+              <caret line="508" column="52" selection-start-line="508" selection-start-column="52" selection-end-line="508" selection-end-column="52" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="docComment;method#getPlayer#0;class#Shuffleboard#0" expanded="false" />
                 <element signature="method#getPlayer#0;class#Shuffleboard#0" expanded="false" />
                 <element signature="docComment;method#getPlayerByName#0;class#Shuffleboard#0" expanded="false" />
+                <element signature="method#getPlayerByName#0;class#Shuffleboard#0" expanded="false" />
                 <element signature="docComment;method#getPlayers#0;class#Shuffleboard#0" expanded="false" />
                 <element signature="method#getPlayers#0;class#Shuffleboard#0" expanded="false" />
                 <element signature="docComment;method#getFriended#0;class#Shuffleboard#0" expanded="false" />
@@ -61,7 +61,7 @@
                 <element signature="docComment;method#putDynamicEvent#0;class#Shuffleboard#0" expanded="false" />
                 <element signature="method#putDynamicEvent#0;class#Shuffleboard#0" expanded="false" />
                 <element signature="docComment;method#putDynamicEventLong#0;class#Shuffleboard#0" expanded="false" />
-                <element signature="method#putDynamicEventLong#0;class#Shuffleboard#0" expanded="false" />
+                <element signature="docComment;method#editDynamicEvent#0;class#Shuffleboard#0" expanded="false" />
                 <element signature="docComment;method#postUser#0;class#Shuffleboard#0" expanded="false" />
                 <element signature="method#postUser#0;class#Shuffleboard#0" expanded="false" />
                 <element signature="docComment;method#postFriend#0;class#Shuffleboard#0" expanded="false" />
@@ -79,67 +79,67 @@
                 <element signature="docComment;method#deleteDynamicEvent#0;class#Shuffleboard#0" expanded="false" />
                 <element signature="method#deleteDynamicEvent#0;class#Shuffleboard#0" expanded="false" />
                 <element signature="docComment;method#main#0;class#Shuffleboard#0" expanded="false" />
-                <marker date="1449697943709" expanded="true" signature="1466:1495" placeholder="SELECT * FRO..Users..." />
-                <marker date="1449697943709" expanded="true" signature="2604:2654" placeholder="SELECT id FR..Users..." />
-                <marker date="1449697943709" expanded="true" signature="3559:3578" placeholder="SELECT * FRO..Users..." />
-                <marker date="1449697943709" expanded="true" signature="4675:4748" placeholder="SELECT name ..Friends..." />
-                <marker date="1449697943709" expanded="true" signature="5078:5151" placeholder="SELECT name ..Friends..." />
-                <marker date="1449697943709" expanded="true" signature="6233:6306" placeholder="SELECT name ..Friends..." />
-                <marker date="1449697943709" expanded="true" signature="7360:7524" placeholder="SELECT DISTI..Users..." />
-                <marker date="1449697943709" expanded="true" signature="8796:8964" placeholder="SELECT DISTI..Users..." />
-                <marker date="1449697943709" expanded="true" signature="10557:10586" placeholder="SELECT * FRO..Users..." />
-                <marker date="1449697943709" expanded="true" signature="10724:10770" placeholder="UPDATE Users..." />
-                <marker date="1449697943709" expanded="true" signature="10820:10882" placeholder="UPDATE Users..." />
-                <marker date="1449697943709" expanded="true" signature="11008:11085" placeholder="INSERT INTO Users..." />
-                <marker date="1449697943709" expanded="true" signature="12359:12410" placeholder="SELECT * FRO..Users..." />
-                <marker date="1449697943709" expanded="true" signature="12565:12623" placeholder="SELECT * FRO..Friends..." />
-                <marker date="1449697943709" expanded="true" signature="12808:12867" placeholder="INSERT INTO Friends..." />
-                <marker date="1449697943709" expanded="true" signature="14308:14366" placeholder="SELECT * FRO..Friends..." />
-                <marker date="1449697943709" expanded="true" signature="14534:14593" placeholder="INSERT INTO Friends..." />
-                <marker date="1449697943709" expanded="true" signature="16027:16085" placeholder="SELECT * FRO..StaticEvents..." />
-                <marker date="1449697943709" expanded="true" signature="16253:16316" placeholder="UPDATE Stati..." />
-                <marker date="1449697943709" expanded="true" signature="16372:16433" placeholder="UPDATE Stati..." />
-                <marker date="1449697943709" expanded="true" signature="16489:16542" placeholder="UPDATE Stati..." />
-                <marker date="1449697943709" expanded="true" signature="16598:16653" placeholder="UPDATE Stati..." />
-                <marker date="1449697943709" expanded="true" signature="16799:16961" placeholder="INSERT INTO StaticEvents..." />
-                <marker date="1449697943709" expanded="true" signature="18435:18467" placeholder="SELECT MAX(I..StaticEvents..." />
-                <marker date="1449697943709" expanded="true" signature="18610:18762" placeholder="INSERT INTO StaticEvents..." />
-                <marker date="1449697943709" expanded="true" signature="20148:20207" placeholder="SELECT * FRO..DynamicEvents..." />
-                <marker date="1449697943709" expanded="true" signature="20376:20446" placeholder="UPDATE Dynam..." />
-                <marker date="1449697943709" expanded="true" signature="20503:20561" placeholder="UPDATE Dynam..." />
-                <marker date="1449697943709" expanded="true" signature="20618:20672" placeholder="UPDATE Dynam..." />
-                <marker date="1449697943709" expanded="true" signature="20729:20785" placeholder="UPDATE Dynam..." />
-                <marker date="1449697943709" expanded="true" signature="20934:21099" placeholder="INSERT INTO DynamicEvents..." />
-                <marker date="1449697943709" expanded="true" signature="22420:22479" placeholder="SELECT * FRO..DynamicEvents..." />
-                <marker date="1449697943709" expanded="true" signature="22648:22718" placeholder="UPDATE Dynam..." />
-                <marker date="1449697943709" expanded="true" signature="22775:22833" placeholder="UPDATE Dynam..." />
-                <marker date="1449697943709" expanded="true" signature="22890:22944" placeholder="UPDATE Dynam..." />
-                <marker date="1449697943709" expanded="true" signature="23001:23057" placeholder="UPDATE Dynam..." />
-                <marker date="1449697943709" expanded="true" signature="23208:23278" placeholder="INSERT INTO DynamicEvents..." />
-                <marker date="1449697943709" expanded="true" signature="23208:23368" placeholder="INSERT INTO DynamicEvents..." />
-                <marker date="1449697943709" expanded="true" signature="23208:23369" placeholder="INSERT INTO DynamicEvents..." />
-                <marker date="1449697943709" expanded="true" signature="24655:24680" placeholder="SELECT MAX(I..Users..." />
-                <marker date="1449697943709" expanded="true" signature="24817:24894" placeholder="INSERT INTO Users..." />
-                <marker date="1449697943709" expanded="true" signature="25931:25990" placeholder="INSERT INTO Friends..." />
-                <marker date="1449697943709" expanded="true" signature="27402:27434" placeholder="SELECT MAX(I..StaticEvents..." />
-                <marker date="1449697943709" expanded="true" signature="27577:27735" placeholder="INSERT INTO StaticEvents..." />
-                <marker date="1449697943709" expanded="true" signature="29178:29211" placeholder="SELECT MAX(I..DynamicEvents..." />
-                <marker date="1449697943709" expanded="true" signature="29355:29516" placeholder="INSERT INTO DynamicEvents..." />
-                <marker date="1449697943709" expanded="true" signature="30469:30496" placeholder="DELETE FROM ..." />
-                <marker date="1449697943709" expanded="true" signature="31492:31555" placeholder="DELETE FROM ..." />
-                <marker date="1449697943709" expanded="true" signature="32598:32660" placeholder="DELETE FROM ..." />
-                <marker date="1449697943709" expanded="true" signature="33714:33778" placeholder="DELETE FROM ..." />
+                <marker date="1450116190615" expanded="true" signature="1466:1495" placeholder="SELECT * FRO..Users..." />
+                <marker date="1450116190615" expanded="true" signature="2604:2654" placeholder="SELECT id FR..Users..." />
+                <marker date="1450116190615" expanded="true" signature="3559:3578" placeholder="SELECT * FRO..Users..." />
+                <marker date="1450116190615" expanded="true" signature="4675:4748" placeholder="SELECT name ..Friends..." />
+                <marker date="1450116190615" expanded="true" signature="5078:5151" placeholder="SELECT name ..Friends..." />
+                <marker date="1450116190615" expanded="true" signature="6233:6306" placeholder="SELECT name ..Friends..." />
+                <marker date="1450116190615" expanded="true" signature="7360:7524" placeholder="SELECT DISTI..Users..." />
+                <marker date="1450116190615" expanded="true" signature="8796:8964" placeholder="SELECT DISTI..Users..." />
+                <marker date="1450116190615" expanded="true" signature="10557:10586" placeholder="SELECT * FRO..Users..." />
+                <marker date="1450116190615" expanded="true" signature="10724:10770" placeholder="UPDATE Users..." />
+                <marker date="1450116190615" expanded="true" signature="10820:10882" placeholder="UPDATE Users..." />
+                <marker date="1450116190615" expanded="true" signature="11008:11085" placeholder="INSERT INTO Users..." />
+                <marker date="1450116190615" expanded="true" signature="12359:12410" placeholder="SELECT * FRO..Users..." />
+                <marker date="1450116190615" expanded="true" signature="12565:12623" placeholder="SELECT * FRO..Friends..." />
+                <marker date="1450116190615" expanded="true" signature="12808:12867" placeholder="INSERT INTO Friends..." />
+                <marker date="1450116190615" expanded="true" signature="14308:14366" placeholder="SELECT * FRO..Friends..." />
+                <marker date="1450116190615" expanded="true" signature="14534:14593" placeholder="INSERT INTO Friends..." />
+                <marker date="1450116190615" expanded="true" signature="16027:16085" placeholder="SELECT * FRO..StaticEvents..." />
+                <marker date="1450116190615" expanded="true" signature="16253:16316" placeholder="UPDATE Stati..." />
+                <marker date="1450116190615" expanded="true" signature="16372:16433" placeholder="UPDATE Stati..." />
+                <marker date="1450116190615" expanded="true" signature="16489:16542" placeholder="UPDATE Stati..." />
+                <marker date="1450116190615" expanded="true" signature="16598:16653" placeholder="UPDATE Stati..." />
+                <marker date="1450116190615" expanded="true" signature="16799:16961" placeholder="INSERT INTO StaticEvents..." />
+                <marker date="1450116190615" expanded="true" signature="18435:18467" placeholder="SELECT MAX(I..StaticEvents..." />
+                <marker date="1450116190615" expanded="true" signature="18610:18762" placeholder="INSERT INTO StaticEvents..." />
+                <marker date="1450116190615" expanded="true" signature="20148:20207" placeholder="SELECT * FRO..DynamicEvents..." />
+                <marker date="1450116190615" expanded="true" signature="20376:20446" placeholder="UPDATE Dynam..." />
+                <marker date="1450116190615" expanded="true" signature="20503:20561" placeholder="UPDATE Dynam..." />
+                <marker date="1450116190615" expanded="true" signature="20618:20672" placeholder="UPDATE Dynam..." />
+                <marker date="1450116190615" expanded="true" signature="20729:20785" placeholder="UPDATE Dynam..." />
+                <marker date="1450116190615" expanded="true" signature="20934:21099" placeholder="INSERT INTO DynamicEvents..." />
+                <marker date="1450116190615" expanded="true" signature="22473:22532" placeholder="SELECT * FRO..DynamicEvents..." />
+                <marker date="1450116190615" expanded="true" signature="22701:22771" placeholder="UPDATE Dynam..." />
+                <marker date="1450116190615" expanded="true" signature="22828:22886" placeholder="UPDATE Dynam..." />
+                <marker date="1450116190615" expanded="true" signature="22943:22997" placeholder="UPDATE Dynam..." />
+                <marker date="1450116190615" expanded="true" signature="23054:23110" placeholder="UPDATE Dynam..." />
+                <marker date="1450116190615" expanded="true" signature="23261:23331" placeholder="INSERT INTO DynamicEvents..." />
+                <marker date="1450116190615" expanded="true" signature="23261:23421" placeholder="INSERT INTO DynamicEvents..." />
+                <marker date="1450116190615" expanded="true" signature="23261:23422" placeholder="INSERT INTO DynamicEvents..." />
+                <marker date="1450116190615" expanded="true" signature="24777:24816" placeholder="UPDATE Dynam..." />
+                <marker date="1450116190615" expanded="true" signature="24777:24846" placeholder="UPDATE Dynam..." />
+                <marker date="1450116190615" expanded="true" signature="24777:24865" placeholder="UPDATE Dynam..." />
+                <marker date="1450116190615" expanded="true" signature="24777:24873" placeholder="UPDATE Dynam..." />
+                <marker date="1450116190615" expanded="true" signature="24923:24986" placeholder="UPDATE Dynam..." />
+                <marker date="1450116190615" expanded="true" signature="24923:25013" placeholder="UPDATE Dynam..." />
+                <marker date="1450116190615" expanded="true" signature="25063:25124" placeholder="UPDATE Dynam..." />
+                <marker date="1450116190615" expanded="true" signature="25063:25151" placeholder="UPDATE Dynam..." />
+                <marker date="1450116190615" expanded="true" signature="25201:25263" placeholder="UPDATE Dynam..." />
+                <marker date="1450116190615" expanded="true" signature="25201:25290" placeholder="UPDATE Dynam..." />
+                <marker date="1450116190615" expanded="true" signature="26500:26525" placeholder="SELECT MAX(I..Users..." />
+                <marker date="1450116190615" expanded="true" signature="26662:26739" placeholder="INSERT INTO Users..." />
+                <marker date="1450116190615" expanded="true" signature="27776:27835" placeholder="INSERT INTO Friends..." />
+                <marker date="1450116190615" expanded="true" signature="29247:29279" placeholder="SELECT MAX(I..StaticEvents..." />
+                <marker date="1450116190615" expanded="true" signature="29422:29580" placeholder="INSERT INTO StaticEvents..." />
+                <marker date="1450116190615" expanded="true" signature="31023:31056" placeholder="SELECT MAX(I..DynamicEvents..." />
+                <marker date="1450116190615" expanded="true" signature="31200:31361" placeholder="INSERT INTO DynamicEvents..." />
+                <marker date="1450116190615" expanded="true" signature="32314:32341" placeholder="DELETE FROM ..." />
+                <marker date="1450116190615" expanded="true" signature="33337:33400" placeholder="DELETE FROM ..." />
+                <marker date="1450116190615" expanded="true" signature="34443:34505" placeholder="DELETE FROM ..." />
+                <marker date="1450116190615" expanded="true" signature="35559:35623" placeholder="DELETE FROM ..." />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Shuffleboard.iml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Shuffleboard.iml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -160,6 +160,9 @@
     <option name="externalProjectsViewState">
       <projects_view />
     </option>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="dummy://restClient/response7.txt" root0="SKIP_INSPECTION" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -212,6 +215,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -232,9 +238,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -255,6 +258,86 @@
   <component name="RestClientSettings">
     <option name="REQUEST_HISTORY">
       <list>
+        <RestClientRequest>
+          <option name="httpMethod" value="PUT" />
+          <option name="urlBase" value="http://localhost:9999" />
+          <option name="urlPath" value="/shuffle/user/1/events/dynamic/edit/1/2__2__0110110__buy%20groceries" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="PUT" />
+          <option name="urlBase" value="http://localhost:9999" />
+          <option name="urlPath" value="/shuffle/user/1/events/dynamic/edit/1/2__2__0111110__buy%20groceries" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="PUT" />
+          <option name="urlBase" value="http://localhost:9999" />
+          <option name="urlPath" value="/shuffle/user/1/events/dynamic/edit/1/2__2__0111110__groceries" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="PUT" />
+          <option name="urlBase" value="http://localhost:9999" />
+          <option name="urlPath" value="/shuffle/user/1/events/dynamic/edit/1/1__2__0111110__groceries" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
         <RestClientRequest>
           <option name="httpMethod" value="PUT" />
           <option name="urlBase" value="http://localhost:9999" />
@@ -953,14 +1036,16 @@
       <workItem from="1449601628568" duration="11937000" />
       <workItem from="1449672999273" duration="2267000" />
       <workItem from="1449693613887" duration="4972000" />
+      <workItem from="1449843161321" duration="2004000" />
+      <workItem from="1450066367137" duration="5075000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22549000" />
+    <option name="totallyTimeSpent" value="29628000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -971,6 +1056,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32896176" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="REST Client" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33821872" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38331455" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919955" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -981,13 +1067,12 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3449831" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3449831" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="REST Client" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32243517" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -1004,7 +1089,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="6" />
+      <option name="time" value="7" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1022,6 +1107,7 @@
             <element signature="docComment;method#getPlayer#0;class#Shuffleboard#0" expanded="false" />
             <element signature="method#getPlayer#0;class#Shuffleboard#0" expanded="false" />
             <element signature="docComment;method#getPlayerByName#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="method#getPlayerByName#0;class#Shuffleboard#0" expanded="false" />
             <element signature="docComment;method#getPlayers#0;class#Shuffleboard#0" expanded="false" />
             <element signature="method#getPlayers#0;class#Shuffleboard#0" expanded="false" />
             <element signature="docComment;method#getFriended#0;class#Shuffleboard#0" expanded="false" />
@@ -1045,7 +1131,7 @@
             <element signature="docComment;method#putDynamicEvent#0;class#Shuffleboard#0" expanded="false" />
             <element signature="method#putDynamicEvent#0;class#Shuffleboard#0" expanded="false" />
             <element signature="docComment;method#putDynamicEventLong#0;class#Shuffleboard#0" expanded="false" />
-            <element signature="method#putDynamicEventLong#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="docComment;method#editDynamicEvent#0;class#Shuffleboard#0" expanded="false" />
             <element signature="docComment;method#postUser#0;class#Shuffleboard#0" expanded="false" />
             <element signature="method#postUser#0;class#Shuffleboard#0" expanded="false" />
             <element signature="docComment;method#postFriend#0;class#Shuffleboard#0" expanded="false" />
@@ -1063,56 +1149,66 @@
             <element signature="docComment;method#deleteDynamicEvent#0;class#Shuffleboard#0" expanded="false" />
             <element signature="method#deleteDynamicEvent#0;class#Shuffleboard#0" expanded="false" />
             <element signature="docComment;method#main#0;class#Shuffleboard#0" expanded="false" />
-            <marker date="1449697943709" expanded="true" signature="1466:1495" placeholder="SELECT * FRO..Users..." />
-            <marker date="1449697943709" expanded="true" signature="2604:2654" placeholder="SELECT id FR..Users..." />
-            <marker date="1449697943709" expanded="true" signature="3559:3578" placeholder="SELECT * FRO..Users..." />
-            <marker date="1449697943709" expanded="true" signature="4675:4748" placeholder="SELECT name ..Friends..." />
-            <marker date="1449697943709" expanded="true" signature="5078:5151" placeholder="SELECT name ..Friends..." />
-            <marker date="1449697943709" expanded="true" signature="6233:6306" placeholder="SELECT name ..Friends..." />
-            <marker date="1449697943709" expanded="true" signature="7360:7524" placeholder="SELECT DISTI..Users..." />
-            <marker date="1449697943709" expanded="true" signature="8796:8964" placeholder="SELECT DISTI..Users..." />
-            <marker date="1449697943709" expanded="true" signature="10557:10586" placeholder="SELECT * FRO..Users..." />
-            <marker date="1449697943709" expanded="true" signature="10724:10770" placeholder="UPDATE Users..." />
-            <marker date="1449697943709" expanded="true" signature="10820:10882" placeholder="UPDATE Users..." />
-            <marker date="1449697943709" expanded="true" signature="11008:11085" placeholder="INSERT INTO Users..." />
-            <marker date="1449697943709" expanded="true" signature="12359:12410" placeholder="SELECT * FRO..Users..." />
-            <marker date="1449697943709" expanded="true" signature="12565:12623" placeholder="SELECT * FRO..Friends..." />
-            <marker date="1449697943709" expanded="true" signature="12808:12867" placeholder="INSERT INTO Friends..." />
-            <marker date="1449697943709" expanded="true" signature="14308:14366" placeholder="SELECT * FRO..Friends..." />
-            <marker date="1449697943709" expanded="true" signature="14534:14593" placeholder="INSERT INTO Friends..." />
-            <marker date="1449697943709" expanded="true" signature="16027:16085" placeholder="SELECT * FRO..StaticEvents..." />
-            <marker date="1449697943709" expanded="true" signature="16253:16316" placeholder="UPDATE Stati..." />
-            <marker date="1449697943709" expanded="true" signature="16372:16433" placeholder="UPDATE Stati..." />
-            <marker date="1449697943709" expanded="true" signature="16489:16542" placeholder="UPDATE Stati..." />
-            <marker date="1449697943709" expanded="true" signature="16598:16653" placeholder="UPDATE Stati..." />
-            <marker date="1449697943709" expanded="true" signature="16799:16961" placeholder="INSERT INTO StaticEvents..." />
-            <marker date="1449697943709" expanded="true" signature="18435:18467" placeholder="SELECT MAX(I..StaticEvents..." />
-            <marker date="1449697943709" expanded="true" signature="18610:18762" placeholder="INSERT INTO StaticEvents..." />
-            <marker date="1449697943709" expanded="true" signature="20148:20207" placeholder="SELECT * FRO..DynamicEvents..." />
-            <marker date="1449697943709" expanded="true" signature="20376:20446" placeholder="UPDATE Dynam..." />
-            <marker date="1449697943709" expanded="true" signature="20503:20561" placeholder="UPDATE Dynam..." />
-            <marker date="1449697943709" expanded="true" signature="20618:20672" placeholder="UPDATE Dynam..." />
-            <marker date="1449697943709" expanded="true" signature="20729:20785" placeholder="UPDATE Dynam..." />
-            <marker date="1449697943709" expanded="true" signature="20934:21099" placeholder="INSERT INTO DynamicEvents..." />
-            <marker date="1449697943709" expanded="true" signature="22420:22479" placeholder="SELECT * FRO..DynamicEvents..." />
-            <marker date="1449697943709" expanded="true" signature="22648:22718" placeholder="UPDATE Dynam..." />
-            <marker date="1449697943709" expanded="true" signature="22775:22833" placeholder="UPDATE Dynam..." />
-            <marker date="1449697943709" expanded="true" signature="22890:22944" placeholder="UPDATE Dynam..." />
-            <marker date="1449697943709" expanded="true" signature="23001:23057" placeholder="UPDATE Dynam..." />
-            <marker date="1449697943709" expanded="true" signature="23208:23278" placeholder="INSERT INTO DynamicEvents..." />
-            <marker date="1449697943709" expanded="true" signature="23208:23368" placeholder="INSERT INTO DynamicEvents..." />
-            <marker date="1449697943709" expanded="true" signature="23208:23369" placeholder="INSERT INTO DynamicEvents..." />
-            <marker date="1449697943709" expanded="true" signature="24655:24680" placeholder="SELECT MAX(I..Users..." />
-            <marker date="1449697943709" expanded="true" signature="24817:24894" placeholder="INSERT INTO Users..." />
-            <marker date="1449697943709" expanded="true" signature="25931:25990" placeholder="INSERT INTO Friends..." />
-            <marker date="1449697943709" expanded="true" signature="27402:27434" placeholder="SELECT MAX(I..StaticEvents..." />
-            <marker date="1449697943709" expanded="true" signature="27577:27735" placeholder="INSERT INTO StaticEvents..." />
-            <marker date="1449697943709" expanded="true" signature="29178:29211" placeholder="SELECT MAX(I..DynamicEvents..." />
-            <marker date="1449697943709" expanded="true" signature="29355:29516" placeholder="INSERT INTO DynamicEvents..." />
-            <marker date="1449697943709" expanded="true" signature="30469:30496" placeholder="DELETE FROM ..." />
-            <marker date="1449697943709" expanded="true" signature="31492:31555" placeholder="DELETE FROM ..." />
-            <marker date="1449697943709" expanded="true" signature="32598:32660" placeholder="DELETE FROM ..." />
-            <marker date="1449697943709" expanded="true" signature="33714:33778" placeholder="DELETE FROM ..." />
+            <marker date="1450116190615" expanded="true" signature="1466:1495" placeholder="SELECT * FRO..Users..." />
+            <marker date="1450116190615" expanded="true" signature="2604:2654" placeholder="SELECT id FR..Users..." />
+            <marker date="1450116190615" expanded="true" signature="3559:3578" placeholder="SELECT * FRO..Users..." />
+            <marker date="1450116190615" expanded="true" signature="4675:4748" placeholder="SELECT name ..Friends..." />
+            <marker date="1450116190615" expanded="true" signature="5078:5151" placeholder="SELECT name ..Friends..." />
+            <marker date="1450116190615" expanded="true" signature="6233:6306" placeholder="SELECT name ..Friends..." />
+            <marker date="1450116190615" expanded="true" signature="7360:7524" placeholder="SELECT DISTI..Users..." />
+            <marker date="1450116190615" expanded="true" signature="8796:8964" placeholder="SELECT DISTI..Users..." />
+            <marker date="1450116190615" expanded="true" signature="10557:10586" placeholder="SELECT * FRO..Users..." />
+            <marker date="1450116190615" expanded="true" signature="10724:10770" placeholder="UPDATE Users..." />
+            <marker date="1450116190615" expanded="true" signature="10820:10882" placeholder="UPDATE Users..." />
+            <marker date="1450116190615" expanded="true" signature="11008:11085" placeholder="INSERT INTO Users..." />
+            <marker date="1450116190615" expanded="true" signature="12359:12410" placeholder="SELECT * FRO..Users..." />
+            <marker date="1450116190615" expanded="true" signature="12565:12623" placeholder="SELECT * FRO..Friends..." />
+            <marker date="1450116190615" expanded="true" signature="12808:12867" placeholder="INSERT INTO Friends..." />
+            <marker date="1450116190615" expanded="true" signature="14308:14366" placeholder="SELECT * FRO..Friends..." />
+            <marker date="1450116190615" expanded="true" signature="14534:14593" placeholder="INSERT INTO Friends..." />
+            <marker date="1450116190615" expanded="true" signature="16027:16085" placeholder="SELECT * FRO..StaticEvents..." />
+            <marker date="1450116190615" expanded="true" signature="16253:16316" placeholder="UPDATE Stati..." />
+            <marker date="1450116190615" expanded="true" signature="16372:16433" placeholder="UPDATE Stati..." />
+            <marker date="1450116190615" expanded="true" signature="16489:16542" placeholder="UPDATE Stati..." />
+            <marker date="1450116190615" expanded="true" signature="16598:16653" placeholder="UPDATE Stati..." />
+            <marker date="1450116190615" expanded="true" signature="16799:16961" placeholder="INSERT INTO StaticEvents..." />
+            <marker date="1450116190615" expanded="true" signature="18435:18467" placeholder="SELECT MAX(I..StaticEvents..." />
+            <marker date="1450116190615" expanded="true" signature="18610:18762" placeholder="INSERT INTO StaticEvents..." />
+            <marker date="1450116190615" expanded="true" signature="20148:20207" placeholder="SELECT * FRO..DynamicEvents..." />
+            <marker date="1450116190615" expanded="true" signature="20376:20446" placeholder="UPDATE Dynam..." />
+            <marker date="1450116190615" expanded="true" signature="20503:20561" placeholder="UPDATE Dynam..." />
+            <marker date="1450116190615" expanded="true" signature="20618:20672" placeholder="UPDATE Dynam..." />
+            <marker date="1450116190615" expanded="true" signature="20729:20785" placeholder="UPDATE Dynam..." />
+            <marker date="1450116190615" expanded="true" signature="20934:21099" placeholder="INSERT INTO DynamicEvents..." />
+            <marker date="1450116190615" expanded="true" signature="22473:22532" placeholder="SELECT * FRO..DynamicEvents..." />
+            <marker date="1450116190615" expanded="true" signature="22701:22771" placeholder="UPDATE Dynam..." />
+            <marker date="1450116190615" expanded="true" signature="22828:22886" placeholder="UPDATE Dynam..." />
+            <marker date="1450116190615" expanded="true" signature="22943:22997" placeholder="UPDATE Dynam..." />
+            <marker date="1450116190615" expanded="true" signature="23054:23110" placeholder="UPDATE Dynam..." />
+            <marker date="1450116190615" expanded="true" signature="23261:23331" placeholder="INSERT INTO DynamicEvents..." />
+            <marker date="1450116190615" expanded="true" signature="23261:23421" placeholder="INSERT INTO DynamicEvents..." />
+            <marker date="1450116190615" expanded="true" signature="23261:23422" placeholder="INSERT INTO DynamicEvents..." />
+            <marker date="1450116190615" expanded="true" signature="24777:24816" placeholder="UPDATE Dynam..." />
+            <marker date="1450116190615" expanded="true" signature="24777:24846" placeholder="UPDATE Dynam..." />
+            <marker date="1450116190615" expanded="true" signature="24777:24865" placeholder="UPDATE Dynam..." />
+            <marker date="1450116190615" expanded="true" signature="24777:24873" placeholder="UPDATE Dynam..." />
+            <marker date="1450116190615" expanded="true" signature="24923:24986" placeholder="UPDATE Dynam..." />
+            <marker date="1450116190615" expanded="true" signature="24923:25013" placeholder="UPDATE Dynam..." />
+            <marker date="1450116190615" expanded="true" signature="25063:25124" placeholder="UPDATE Dynam..." />
+            <marker date="1450116190615" expanded="true" signature="25063:25151" placeholder="UPDATE Dynam..." />
+            <marker date="1450116190615" expanded="true" signature="25201:25263" placeholder="UPDATE Dynam..." />
+            <marker date="1450116190615" expanded="true" signature="25201:25290" placeholder="UPDATE Dynam..." />
+            <marker date="1450116190615" expanded="true" signature="26500:26525" placeholder="SELECT MAX(I..Users..." />
+            <marker date="1450116190615" expanded="true" signature="26662:26739" placeholder="INSERT INTO Users..." />
+            <marker date="1450116190615" expanded="true" signature="27776:27835" placeholder="INSERT INTO Friends..." />
+            <marker date="1450116190615" expanded="true" signature="29247:29279" placeholder="SELECT MAX(I..StaticEvents..." />
+            <marker date="1450116190615" expanded="true" signature="29422:29580" placeholder="INSERT INTO StaticEvents..." />
+            <marker date="1450116190615" expanded="true" signature="31023:31056" placeholder="SELECT MAX(I..DynamicEvents..." />
+            <marker date="1450116190615" expanded="true" signature="31200:31361" placeholder="INSERT INTO DynamicEvents..." />
+            <marker date="1450116190615" expanded="true" signature="32314:32341" placeholder="DELETE FROM ..." />
+            <marker date="1450116190615" expanded="true" signature="33337:33400" placeholder="DELETE FROM ..." />
+            <marker date="1450116190615" expanded="true" signature="34443:34505" placeholder="DELETE FROM ..." />
+            <marker date="1450116190615" expanded="true" signature="35559:35623" placeholder="DELETE FROM ..." />
           </folding>
         </state>
       </provider>
@@ -1126,6 +1222,7 @@
             <element signature="docComment;method#getPlayer#0;class#Shuffleboard#0" expanded="false" />
             <element signature="method#getPlayer#0;class#Shuffleboard#0" expanded="false" />
             <element signature="docComment;method#getPlayerByName#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="method#getPlayerByName#0;class#Shuffleboard#0" expanded="false" />
             <element signature="docComment;method#getPlayers#0;class#Shuffleboard#0" expanded="false" />
             <element signature="method#getPlayers#0;class#Shuffleboard#0" expanded="false" />
             <element signature="docComment;method#getFriended#0;class#Shuffleboard#0" expanded="false" />
@@ -1149,7 +1246,7 @@
             <element signature="docComment;method#putDynamicEvent#0;class#Shuffleboard#0" expanded="false" />
             <element signature="method#putDynamicEvent#0;class#Shuffleboard#0" expanded="false" />
             <element signature="docComment;method#putDynamicEventLong#0;class#Shuffleboard#0" expanded="false" />
-            <element signature="method#putDynamicEventLong#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="docComment;method#editDynamicEvent#0;class#Shuffleboard#0" expanded="false" />
             <element signature="docComment;method#postUser#0;class#Shuffleboard#0" expanded="false" />
             <element signature="method#postUser#0;class#Shuffleboard#0" expanded="false" />
             <element signature="docComment;method#postFriend#0;class#Shuffleboard#0" expanded="false" />
@@ -1167,472 +1264,66 @@
             <element signature="docComment;method#deleteDynamicEvent#0;class#Shuffleboard#0" expanded="false" />
             <element signature="method#deleteDynamicEvent#0;class#Shuffleboard#0" expanded="false" />
             <element signature="docComment;method#main#0;class#Shuffleboard#0" expanded="false" />
-            <marker date="1449697943709" expanded="true" signature="1466:1495" placeholder="SELECT * FRO..Users..." />
-            <marker date="1449697943709" expanded="true" signature="2604:2654" placeholder="SELECT id FR..Users..." />
-            <marker date="1449697943709" expanded="true" signature="3559:3578" placeholder="SELECT * FRO..Users..." />
-            <marker date="1449697943709" expanded="true" signature="4675:4748" placeholder="SELECT name ..Friends..." />
-            <marker date="1449697943709" expanded="true" signature="5078:5151" placeholder="SELECT name ..Friends..." />
-            <marker date="1449697943709" expanded="true" signature="6233:6306" placeholder="SELECT name ..Friends..." />
-            <marker date="1449697943709" expanded="true" signature="7360:7524" placeholder="SELECT DISTI..Users..." />
-            <marker date="1449697943709" expanded="true" signature="8796:8964" placeholder="SELECT DISTI..Users..." />
-            <marker date="1449697943709" expanded="true" signature="10557:10586" placeholder="SELECT * FRO..Users..." />
-            <marker date="1449697943709" expanded="true" signature="10724:10770" placeholder="UPDATE Users..." />
-            <marker date="1449697943709" expanded="true" signature="10820:10882" placeholder="UPDATE Users..." />
-            <marker date="1449697943709" expanded="true" signature="11008:11085" placeholder="INSERT INTO Users..." />
-            <marker date="1449697943709" expanded="true" signature="12359:12410" placeholder="SELECT * FRO..Users..." />
-            <marker date="1449697943709" expanded="true" signature="12565:12623" placeholder="SELECT * FRO..Friends..." />
-            <marker date="1449697943709" expanded="true" signature="12808:12867" placeholder="INSERT INTO Friends..." />
-            <marker date="1449697943709" expanded="true" signature="14308:14366" placeholder="SELECT * FRO..Friends..." />
-            <marker date="1449697943709" expanded="true" signature="14534:14593" placeholder="INSERT INTO Friends..." />
-            <marker date="1449697943709" expanded="true" signature="16027:16085" placeholder="SELECT * FRO..StaticEvents..." />
-            <marker date="1449697943709" expanded="true" signature="16253:16316" placeholder="UPDATE Stati..." />
-            <marker date="1449697943709" expanded="true" signature="16372:16433" placeholder="UPDATE Stati..." />
-            <marker date="1449697943709" expanded="true" signature="16489:16542" placeholder="UPDATE Stati..." />
-            <marker date="1449697943709" expanded="true" signature="16598:16653" placeholder="UPDATE Stati..." />
-            <marker date="1449697943709" expanded="true" signature="16799:16961" placeholder="INSERT INTO StaticEvents..." />
-            <marker date="1449697943709" expanded="true" signature="18435:18467" placeholder="SELECT MAX(I..StaticEvents..." />
-            <marker date="1449697943709" expanded="true" signature="18610:18762" placeholder="INSERT INTO StaticEvents..." />
-            <marker date="1449697943709" expanded="true" signature="20148:20207" placeholder="SELECT * FRO..DynamicEvents..." />
-            <marker date="1449697943709" expanded="true" signature="20376:20446" placeholder="UPDATE Dynam..." />
-            <marker date="1449697943709" expanded="true" signature="20503:20561" placeholder="UPDATE Dynam..." />
-            <marker date="1449697943709" expanded="true" signature="20618:20672" placeholder="UPDATE Dynam..." />
-            <marker date="1449697943709" expanded="true" signature="20729:20785" placeholder="UPDATE Dynam..." />
-            <marker date="1449697943709" expanded="true" signature="20934:21099" placeholder="INSERT INTO DynamicEvents..." />
-            <marker date="1449697943709" expanded="true" signature="22420:22479" placeholder="SELECT * FRO..DynamicEvents..." />
-            <marker date="1449697943709" expanded="true" signature="22648:22718" placeholder="UPDATE Dynam..." />
-            <marker date="1449697943709" expanded="true" signature="22775:22833" placeholder="UPDATE Dynam..." />
-            <marker date="1449697943709" expanded="true" signature="22890:22944" placeholder="UPDATE Dynam..." />
-            <marker date="1449697943709" expanded="true" signature="23001:23057" placeholder="UPDATE Dynam..." />
-            <marker date="1449697943709" expanded="true" signature="23208:23278" placeholder="INSERT INTO DynamicEvents..." />
-            <marker date="1449697943709" expanded="true" signature="23208:23368" placeholder="INSERT INTO DynamicEvents..." />
-            <marker date="1449697943709" expanded="true" signature="23208:23369" placeholder="INSERT INTO DynamicEvents..." />
-            <marker date="1449697943709" expanded="true" signature="24655:24680" placeholder="SELECT MAX(I..Users..." />
-            <marker date="1449697943709" expanded="true" signature="24817:24894" placeholder="INSERT INTO Users..." />
-            <marker date="1449697943709" expanded="true" signature="25931:25990" placeholder="INSERT INTO Friends..." />
-            <marker date="1449697943709" expanded="true" signature="27402:27434" placeholder="SELECT MAX(I..StaticEvents..." />
-            <marker date="1449697943709" expanded="true" signature="27577:27735" placeholder="INSERT INTO StaticEvents..." />
-            <marker date="1449697943709" expanded="true" signature="29178:29211" placeholder="SELECT MAX(I..DynamicEvents..." />
-            <marker date="1449697943709" expanded="true" signature="29355:29516" placeholder="INSERT INTO DynamicEvents..." />
-            <marker date="1449697943709" expanded="true" signature="30469:30496" placeholder="DELETE FROM ..." />
-            <marker date="1449697943709" expanded="true" signature="31492:31555" placeholder="DELETE FROM ..." />
-            <marker date="1449697943709" expanded="true" signature="32598:32660" placeholder="DELETE FROM ..." />
-            <marker date="1449697943709" expanded="true" signature="33714:33778" placeholder="DELETE FROM ..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Shuffleboard.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="docComment;method#getPlayer#0;class#Shuffleboard#0" expanded="false" />
-            <element signature="method#getPlayer#0;class#Shuffleboard#0" expanded="false" />
-            <element signature="docComment;method#getPlayerByName#0;class#Shuffleboard#0" expanded="false" />
-            <element signature="docComment;method#getPlayers#0;class#Shuffleboard#0" expanded="false" />
-            <element signature="method#getPlayers#0;class#Shuffleboard#0" expanded="false" />
-            <element signature="docComment;method#getFriended#0;class#Shuffleboard#0" expanded="false" />
-            <element signature="method#getFriended#0;class#Shuffleboard#0" expanded="false" />
-            <element signature="docComment;method#getFriends#0;class#Shuffleboard#0" expanded="false" />
-            <element signature="method#getFriends#0;class#Shuffleboard#0" expanded="false" />
-            <element signature="docComment;method#getStaticEvents#0;class#Shuffleboard#0" expanded="false" />
-            <element signature="method#getStaticEvents#0;class#Shuffleboard#0" expanded="false" />
-            <element signature="docComment;method#getDynamicEvents#0;class#Shuffleboard#0" expanded="false" />
-            <element signature="method#getDynamicEvents#0;class#Shuffleboard#0" expanded="false" />
-            <element signature="docComment;method#putUser#0;class#Shuffleboard#0" expanded="false" />
-            <element signature="method#putUser#0;class#Shuffleboard#0" expanded="false" />
-            <element signature="docComment;method#putFriends#0;class#Shuffleboard#0" expanded="false" />
-            <element signature="method#putFriends#0;class#Shuffleboard#0" expanded="false" />
-            <element signature="docComment;method#putFriends#1;class#Shuffleboard#0" expanded="false" />
-            <element signature="method#putFriends#1;class#Shuffleboard#0" expanded="false" />
-            <element signature="docComment;method#putStaticEvent#0;class#Shuffleboard#0" expanded="false" />
-            <element signature="method#putStaticEvent#0;class#Shuffleboard#0" expanded="false" />
-            <element signature="docComment;method#putStaticEventLong#0;class#Shuffleboard#0" expanded="false" />
-            <element signature="method#putStaticEventLong#0;class#Shuffleboard#0" expanded="false" />
-            <element signature="docComment;method#putDynamicEvent#0;class#Shuffleboard#0" expanded="false" />
-            <element signature="method#putDynamicEvent#0;class#Shuffleboard#0" expanded="false" />
-            <element signature="docComment;method#putDynamicEventLong#0;class#Shuffleboard#0" expanded="false" />
-            <element signature="method#putDynamicEventLong#0;class#Shuffleboard#0" expanded="false" />
-            <element signature="docComment;method#postUser#0;class#Shuffleboard#0" expanded="false" />
-            <element signature="method#postUser#0;class#Shuffleboard#0" expanded="false" />
-            <element signature="docComment;method#postFriend#0;class#Shuffleboard#0" expanded="false" />
-            <element signature="method#postFriend#0;class#Shuffleboard#0" expanded="false" />
-            <element signature="docComment;method#postStaticEvent#0;class#Shuffleboard#0" expanded="false" />
-            <element signature="method#postStaticEvent#0;class#Shuffleboard#0" expanded="false" />
-            <element signature="docComment;method#postDynamicEvent#0;class#Shuffleboard#0" expanded="false" />
-            <element signature="method#postDynamicEvent#0;class#Shuffleboard#0" expanded="false" />
-            <element signature="docComment;method#deleteUser#0;class#Shuffleboard#0" expanded="false" />
-            <element signature="method#deleteUser#0;class#Shuffleboard#0" expanded="false" />
-            <element signature="docComment;method#deleteFriend#0;class#Shuffleboard#0" expanded="false" />
-            <element signature="method#deleteFriend#0;class#Shuffleboard#0" expanded="false" />
-            <element signature="docComment;method#deleteStaticEvent#0;class#Shuffleboard#0" expanded="false" />
-            <element signature="method#deleteStaticEvent#0;class#Shuffleboard#0" expanded="false" />
-            <element signature="docComment;method#deleteDynamicEvent#0;class#Shuffleboard#0" expanded="false" />
-            <element signature="method#deleteDynamicEvent#0;class#Shuffleboard#0" expanded="false" />
-            <element signature="docComment;method#main#0;class#Shuffleboard#0" expanded="false" />
-            <marker date="1449697943709" expanded="true" signature="1466:1495" placeholder="SELECT * FRO..Users..." />
-            <marker date="1449697943709" expanded="true" signature="2604:2654" placeholder="SELECT id FR..Users..." />
-            <marker date="1449697943709" expanded="true" signature="3559:3578" placeholder="SELECT * FRO..Users..." />
-            <marker date="1449697943709" expanded="true" signature="4675:4748" placeholder="SELECT name ..Friends..." />
-            <marker date="1449697943709" expanded="true" signature="5078:5151" placeholder="SELECT name ..Friends..." />
-            <marker date="1449697943709" expanded="true" signature="6233:6306" placeholder="SELECT name ..Friends..." />
-            <marker date="1449697943709" expanded="true" signature="7360:7524" placeholder="SELECT DISTI..Users..." />
-            <marker date="1449697943709" expanded="true" signature="8796:8964" placeholder="SELECT DISTI..Users..." />
-            <marker date="1449697943709" expanded="true" signature="10557:10586" placeholder="SELECT * FRO..Users..." />
-            <marker date="1449697943709" expanded="true" signature="10724:10770" placeholder="UPDATE Users..." />
-            <marker date="1449697943709" expanded="true" signature="10820:10882" placeholder="UPDATE Users..." />
-            <marker date="1449697943709" expanded="true" signature="11008:11085" placeholder="INSERT INTO Users..." />
-            <marker date="1449697943709" expanded="true" signature="12359:12410" placeholder="SELECT * FRO..Users..." />
-            <marker date="1449697943709" expanded="true" signature="12565:12623" placeholder="SELECT * FRO..Friends..." />
-            <marker date="1449697943709" expanded="true" signature="12808:12867" placeholder="INSERT INTO Friends..." />
-            <marker date="1449697943709" expanded="true" signature="14308:14366" placeholder="SELECT * FRO..Friends..." />
-            <marker date="1449697943709" expanded="true" signature="14534:14593" placeholder="INSERT INTO Friends..." />
-            <marker date="1449697943709" expanded="true" signature="16027:16085" placeholder="SELECT * FRO..StaticEvents..." />
-            <marker date="1449697943709" expanded="true" signature="16253:16316" placeholder="UPDATE Stati..." />
-            <marker date="1449697943709" expanded="true" signature="16372:16433" placeholder="UPDATE Stati..." />
-            <marker date="1449697943709" expanded="true" signature="16489:16542" placeholder="UPDATE Stati..." />
-            <marker date="1449697943709" expanded="true" signature="16598:16653" placeholder="UPDATE Stati..." />
-            <marker date="1449697943709" expanded="true" signature="16799:16961" placeholder="INSERT INTO StaticEvents..." />
-            <marker date="1449697943709" expanded="true" signature="18435:18467" placeholder="SELECT MAX(I..StaticEvents..." />
-            <marker date="1449697943709" expanded="true" signature="18610:18762" placeholder="INSERT INTO StaticEvents..." />
-            <marker date="1449697943709" expanded="true" signature="20148:20207" placeholder="SELECT * FRO..DynamicEvents..." />
-            <marker date="1449697943709" expanded="true" signature="20376:20446" placeholder="UPDATE Dynam..." />
-            <marker date="1449697943709" expanded="true" signature="20503:20561" placeholder="UPDATE Dynam..." />
-            <marker date="1449697943709" expanded="true" signature="20618:20672" placeholder="UPDATE Dynam..." />
-            <marker date="1449697943709" expanded="true" signature="20729:20785" placeholder="UPDATE Dynam..." />
-            <marker date="1449697943709" expanded="true" signature="20934:21099" placeholder="INSERT INTO DynamicEvents..." />
-            <marker date="1449697943709" expanded="true" signature="22420:22479" placeholder="SELECT * FRO..DynamicEvents..." />
-            <marker date="1449697943709" expanded="true" signature="22648:22718" placeholder="UPDATE Dynam..." />
-            <marker date="1449697943709" expanded="true" signature="22775:22833" placeholder="UPDATE Dynam..." />
-            <marker date="1449697943709" expanded="true" signature="22890:22944" placeholder="UPDATE Dynam..." />
-            <marker date="1449697943709" expanded="true" signature="23001:23057" placeholder="UPDATE Dynam..." />
-            <marker date="1449697943709" expanded="true" signature="23208:23278" placeholder="INSERT INTO DynamicEvents..." />
-            <marker date="1449697943709" expanded="true" signature="23208:23368" placeholder="INSERT INTO DynamicEvents..." />
-            <marker date="1449697943709" expanded="true" signature="23208:23369" placeholder="INSERT INTO DynamicEvents..." />
-            <marker date="1449697943709" expanded="true" signature="24655:24680" placeholder="SELECT MAX(I..Users..." />
-            <marker date="1449697943709" expanded="true" signature="24817:24894" placeholder="INSERT INTO Users..." />
-            <marker date="1449697943709" expanded="true" signature="25931:25990" placeholder="INSERT INTO Friends..." />
-            <marker date="1449697943709" expanded="true" signature="27402:27434" placeholder="SELECT MAX(I..StaticEvents..." />
-            <marker date="1449697943709" expanded="true" signature="27577:27735" placeholder="INSERT INTO StaticEvents..." />
-            <marker date="1449697943709" expanded="true" signature="29178:29211" placeholder="SELECT MAX(I..DynamicEvents..." />
-            <marker date="1449697943709" expanded="true" signature="29355:29516" placeholder="INSERT INTO DynamicEvents..." />
-            <marker date="1449697943709" expanded="true" signature="30469:30496" placeholder="DELETE FROM ..." />
-            <marker date="1449697943709" expanded="true" signature="31492:31555" placeholder="DELETE FROM ..." />
-            <marker date="1449697943709" expanded="true" signature="32598:32660" placeholder="DELETE FROM ..." />
-            <marker date="1449697943709" expanded="true" signature="33714:33778" placeholder="DELETE FROM ..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Shuffleboard.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="docComment;method#getPlayer#0;class#Shuffleboard#0" expanded="false" />
-            <element signature="method#getPlayer#0;class#Shuffleboard#0" expanded="false" />
-            <element signature="docComment;method#getPlayerByName#0;class#Shuffleboard#0" expanded="false" />
-            <element signature="docComment;method#getPlayers#0;class#Shuffleboard#0" expanded="false" />
-            <element signature="method#getPlayers#0;class#Shuffleboard#0" expanded="false" />
-            <element signature="docComment;method#getFriended#0;class#Shuffleboard#0" expanded="false" />
-            <element signature="method#getFriended#0;class#Shuffleboard#0" expanded="false" />
-            <element signature="docComment;method#getFriends#0;class#Shuffleboard#0" expanded="false" />
-            <element signature="method#getFriends#0;class#Shuffleboard#0" expanded="false" />
-            <element signature="docComment;method#getStaticEvents#0;class#Shuffleboard#0" expanded="false" />
-            <element signature="method#getStaticEvents#0;class#Shuffleboard#0" expanded="false" />
-            <element signature="docComment;method#getDynamicEvents#0;class#Shuffleboard#0" expanded="false" />
-            <element signature="method#getDynamicEvents#0;class#Shuffleboard#0" expanded="false" />
-            <element signature="docComment;method#putUser#0;class#Shuffleboard#0" expanded="false" />
-            <element signature="method#putUser#0;class#Shuffleboard#0" expanded="false" />
-            <element signature="docComment;method#putFriends#0;class#Shuffleboard#0" expanded="false" />
-            <element signature="method#putFriends#0;class#Shuffleboard#0" expanded="false" />
-            <element signature="docComment;method#putFriends#1;class#Shuffleboard#0" expanded="false" />
-            <element signature="method#putFriends#1;class#Shuffleboard#0" expanded="false" />
-            <element signature="docComment;method#putStaticEvent#0;class#Shuffleboard#0" expanded="false" />
-            <element signature="method#putStaticEvent#0;class#Shuffleboard#0" expanded="false" />
-            <element signature="docComment;method#putStaticEventLong#0;class#Shuffleboard#0" expanded="false" />
-            <element signature="method#putStaticEventLong#0;class#Shuffleboard#0" expanded="false" />
-            <element signature="docComment;method#putDynamicEvent#0;class#Shuffleboard#0" expanded="false" />
-            <element signature="method#putDynamicEvent#0;class#Shuffleboard#0" expanded="false" />
-            <element signature="docComment;method#putDynamicEventLong#0;class#Shuffleboard#0" expanded="false" />
-            <element signature="method#putDynamicEventLong#0;class#Shuffleboard#0" expanded="false" />
-            <element signature="docComment;method#postUser#0;class#Shuffleboard#0" expanded="false" />
-            <element signature="method#postUser#0;class#Shuffleboard#0" expanded="false" />
-            <element signature="docComment;method#postFriend#0;class#Shuffleboard#0" expanded="false" />
-            <element signature="method#postFriend#0;class#Shuffleboard#0" expanded="false" />
-            <element signature="docComment;method#postStaticEvent#0;class#Shuffleboard#0" expanded="false" />
-            <element signature="method#postStaticEvent#0;class#Shuffleboard#0" expanded="false" />
-            <element signature="docComment;method#postDynamicEvent#0;class#Shuffleboard#0" expanded="false" />
-            <element signature="method#postDynamicEvent#0;class#Shuffleboard#0" expanded="false" />
-            <element signature="docComment;method#deleteUser#0;class#Shuffleboard#0" expanded="false" />
-            <element signature="method#deleteUser#0;class#Shuffleboard#0" expanded="false" />
-            <element signature="docComment;method#deleteFriend#0;class#Shuffleboard#0" expanded="false" />
-            <element signature="method#deleteFriend#0;class#Shuffleboard#0" expanded="false" />
-            <element signature="docComment;method#deleteStaticEvent#0;class#Shuffleboard#0" expanded="false" />
-            <element signature="method#deleteStaticEvent#0;class#Shuffleboard#0" expanded="false" />
-            <element signature="docComment;method#deleteDynamicEvent#0;class#Shuffleboard#0" expanded="false" />
-            <element signature="method#deleteDynamicEvent#0;class#Shuffleboard#0" expanded="false" />
-            <element signature="docComment;method#main#0;class#Shuffleboard#0" expanded="false" />
-            <marker date="1449697943709" expanded="true" signature="1466:1495" placeholder="SELECT * FRO..Users..." />
-            <marker date="1449697943709" expanded="true" signature="2604:2654" placeholder="SELECT id FR..Users..." />
-            <marker date="1449697943709" expanded="true" signature="3559:3578" placeholder="SELECT * FRO..Users..." />
-            <marker date="1449697943709" expanded="true" signature="4675:4748" placeholder="SELECT name ..Friends..." />
-            <marker date="1449697943709" expanded="true" signature="5078:5151" placeholder="SELECT name ..Friends..." />
-            <marker date="1449697943709" expanded="true" signature="6233:6306" placeholder="SELECT name ..Friends..." />
-            <marker date="1449697943709" expanded="true" signature="7360:7524" placeholder="SELECT DISTI..Users..." />
-            <marker date="1449697943709" expanded="true" signature="8796:8964" placeholder="SELECT DISTI..Users..." />
-            <marker date="1449697943709" expanded="true" signature="10557:10586" placeholder="SELECT * FRO..Users..." />
-            <marker date="1449697943709" expanded="true" signature="10724:10770" placeholder="UPDATE Users..." />
-            <marker date="1449697943709" expanded="true" signature="10820:10882" placeholder="UPDATE Users..." />
-            <marker date="1449697943709" expanded="true" signature="11008:11085" placeholder="INSERT INTO Users..." />
-            <marker date="1449697943709" expanded="true" signature="12359:12410" placeholder="SELECT * FRO..Users..." />
-            <marker date="1449697943709" expanded="true" signature="12565:12623" placeholder="SELECT * FRO..Friends..." />
-            <marker date="1449697943709" expanded="true" signature="12808:12867" placeholder="INSERT INTO Friends..." />
-            <marker date="1449697943709" expanded="true" signature="14308:14366" placeholder="SELECT * FRO..Friends..." />
-            <marker date="1449697943709" expanded="true" signature="14534:14593" placeholder="INSERT INTO Friends..." />
-            <marker date="1449697943709" expanded="true" signature="16027:16085" placeholder="SELECT * FRO..StaticEvents..." />
-            <marker date="1449697943709" expanded="true" signature="16253:16316" placeholder="UPDATE Stati..." />
-            <marker date="1449697943709" expanded="true" signature="16372:16433" placeholder="UPDATE Stati..." />
-            <marker date="1449697943709" expanded="true" signature="16489:16542" placeholder="UPDATE Stati..." />
-            <marker date="1449697943709" expanded="true" signature="16598:16653" placeholder="UPDATE Stati..." />
-            <marker date="1449697943709" expanded="true" signature="16799:16961" placeholder="INSERT INTO StaticEvents..." />
-            <marker date="1449697943709" expanded="true" signature="18435:18467" placeholder="SELECT MAX(I..StaticEvents..." />
-            <marker date="1449697943709" expanded="true" signature="18610:18762" placeholder="INSERT INTO StaticEvents..." />
-            <marker date="1449697943709" expanded="true" signature="20148:20207" placeholder="SELECT * FRO..DynamicEvents..." />
-            <marker date="1449697943709" expanded="true" signature="20376:20446" placeholder="UPDATE Dynam..." />
-            <marker date="1449697943709" expanded="true" signature="20503:20561" placeholder="UPDATE Dynam..." />
-            <marker date="1449697943709" expanded="true" signature="20618:20672" placeholder="UPDATE Dynam..." />
-            <marker date="1449697943709" expanded="true" signature="20729:20785" placeholder="UPDATE Dynam..." />
-            <marker date="1449697943709" expanded="true" signature="20934:21099" placeholder="INSERT INTO DynamicEvents..." />
-            <marker date="1449697943709" expanded="true" signature="22420:22479" placeholder="SELECT * FRO..DynamicEvents..." />
-            <marker date="1449697943709" expanded="true" signature="22648:22718" placeholder="UPDATE Dynam..." />
-            <marker date="1449697943709" expanded="true" signature="22775:22833" placeholder="UPDATE Dynam..." />
-            <marker date="1449697943709" expanded="true" signature="22890:22944" placeholder="UPDATE Dynam..." />
-            <marker date="1449697943709" expanded="true" signature="23001:23057" placeholder="UPDATE Dynam..." />
-            <marker date="1449697943709" expanded="true" signature="23208:23278" placeholder="INSERT INTO DynamicEvents..." />
-            <marker date="1449697943709" expanded="true" signature="23208:23368" placeholder="INSERT INTO DynamicEvents..." />
-            <marker date="1449697943709" expanded="true" signature="23208:23369" placeholder="INSERT INTO DynamicEvents..." />
-            <marker date="1449697943709" expanded="true" signature="24655:24680" placeholder="SELECT MAX(I..Users..." />
-            <marker date="1449697943709" expanded="true" signature="24817:24894" placeholder="INSERT INTO Users..." />
-            <marker date="1449697943709" expanded="true" signature="25931:25990" placeholder="INSERT INTO Friends..." />
-            <marker date="1449697943709" expanded="true" signature="27402:27434" placeholder="SELECT MAX(I..StaticEvents..." />
-            <marker date="1449697943709" expanded="true" signature="27577:27735" placeholder="INSERT INTO StaticEvents..." />
-            <marker date="1449697943709" expanded="true" signature="29178:29211" placeholder="SELECT MAX(I..DynamicEvents..." />
-            <marker date="1449697943709" expanded="true" signature="29355:29516" placeholder="INSERT INTO DynamicEvents..." />
-            <marker date="1449697943709" expanded="true" signature="30469:30496" placeholder="DELETE FROM ..." />
-            <marker date="1449697943709" expanded="true" signature="31492:31555" placeholder="DELETE FROM ..." />
-            <marker date="1449697943709" expanded="true" signature="32598:32660" placeholder="DELETE FROM ..." />
-            <marker date="1449697943709" expanded="true" signature="33714:33778" placeholder="DELETE FROM ..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Shuffleboard.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="docComment;method#getPlayer#0;class#Shuffleboard#0" expanded="false" />
-            <element signature="method#getPlayer#0;class#Shuffleboard#0" expanded="false" />
-            <element signature="docComment;method#getPlayerByName#0;class#Shuffleboard#0" expanded="false" />
-            <element signature="docComment;method#getPlayers#0;class#Shuffleboard#0" expanded="false" />
-            <element signature="method#getPlayers#0;class#Shuffleboard#0" expanded="false" />
-            <element signature="docComment;method#getFriended#0;class#Shuffleboard#0" expanded="false" />
-            <element signature="method#getFriended#0;class#Shuffleboard#0" expanded="false" />
-            <element signature="docComment;method#getFriends#0;class#Shuffleboard#0" expanded="false" />
-            <element signature="method#getFriends#0;class#Shuffleboard#0" expanded="false" />
-            <element signature="docComment;method#getStaticEvents#0;class#Shuffleboard#0" expanded="false" />
-            <element signature="method#getStaticEvents#0;class#Shuffleboard#0" expanded="false" />
-            <element signature="docComment;method#getDynamicEvents#0;class#Shuffleboard#0" expanded="false" />
-            <element signature="method#getDynamicEvents#0;class#Shuffleboard#0" expanded="false" />
-            <element signature="docComment;method#putUser#0;class#Shuffleboard#0" expanded="false" />
-            <element signature="method#putUser#0;class#Shuffleboard#0" expanded="false" />
-            <element signature="docComment;method#putFriends#0;class#Shuffleboard#0" expanded="false" />
-            <element signature="method#putFriends#0;class#Shuffleboard#0" expanded="false" />
-            <element signature="docComment;method#putFriends#1;class#Shuffleboard#0" expanded="false" />
-            <element signature="method#putFriends#1;class#Shuffleboard#0" expanded="false" />
-            <element signature="docComment;method#putStaticEvent#0;class#Shuffleboard#0" expanded="false" />
-            <element signature="method#putStaticEvent#0;class#Shuffleboard#0" expanded="false" />
-            <element signature="docComment;method#putStaticEventLong#0;class#Shuffleboard#0" expanded="false" />
-            <element signature="method#putStaticEventLong#0;class#Shuffleboard#0" expanded="false" />
-            <element signature="docComment;method#putDynamicEvent#0;class#Shuffleboard#0" expanded="false" />
-            <element signature="method#putDynamicEvent#0;class#Shuffleboard#0" expanded="false" />
-            <element signature="docComment;method#putDynamicEventLong#0;class#Shuffleboard#0" expanded="false" />
-            <element signature="method#putDynamicEventLong#0;class#Shuffleboard#0" expanded="false" />
-            <element signature="docComment;method#postUser#0;class#Shuffleboard#0" expanded="false" />
-            <element signature="method#postUser#0;class#Shuffleboard#0" expanded="false" />
-            <element signature="docComment;method#postFriend#0;class#Shuffleboard#0" expanded="false" />
-            <element signature="method#postFriend#0;class#Shuffleboard#0" expanded="false" />
-            <element signature="docComment;method#postStaticEvent#0;class#Shuffleboard#0" expanded="false" />
-            <element signature="method#postStaticEvent#0;class#Shuffleboard#0" expanded="false" />
-            <element signature="docComment;method#postDynamicEvent#0;class#Shuffleboard#0" expanded="false" />
-            <element signature="method#postDynamicEvent#0;class#Shuffleboard#0" expanded="false" />
-            <element signature="docComment;method#deleteUser#0;class#Shuffleboard#0" expanded="false" />
-            <element signature="method#deleteUser#0;class#Shuffleboard#0" expanded="false" />
-            <element signature="docComment;method#deleteFriend#0;class#Shuffleboard#0" expanded="false" />
-            <element signature="method#deleteFriend#0;class#Shuffleboard#0" expanded="false" />
-            <element signature="docComment;method#deleteStaticEvent#0;class#Shuffleboard#0" expanded="false" />
-            <element signature="method#deleteStaticEvent#0;class#Shuffleboard#0" expanded="false" />
-            <element signature="docComment;method#deleteDynamicEvent#0;class#Shuffleboard#0" expanded="false" />
-            <element signature="method#deleteDynamicEvent#0;class#Shuffleboard#0" expanded="false" />
-            <element signature="docComment;method#main#0;class#Shuffleboard#0" expanded="false" />
-            <marker date="1449697943709" expanded="true" signature="1466:1495" placeholder="SELECT * FRO..Users..." />
-            <marker date="1449697943709" expanded="true" signature="2604:2654" placeholder="SELECT id FR..Users..." />
-            <marker date="1449697943709" expanded="true" signature="3559:3578" placeholder="SELECT * FRO..Users..." />
-            <marker date="1449697943709" expanded="true" signature="4675:4748" placeholder="SELECT name ..Friends..." />
-            <marker date="1449697943709" expanded="true" signature="5078:5151" placeholder="SELECT name ..Friends..." />
-            <marker date="1449697943709" expanded="true" signature="6233:6306" placeholder="SELECT name ..Friends..." />
-            <marker date="1449697943709" expanded="true" signature="7360:7524" placeholder="SELECT DISTI..Users..." />
-            <marker date="1449697943709" expanded="true" signature="8796:8964" placeholder="SELECT DISTI..Users..." />
-            <marker date="1449697943709" expanded="true" signature="10557:10586" placeholder="SELECT * FRO..Users..." />
-            <marker date="1449697943709" expanded="true" signature="10724:10770" placeholder="UPDATE Users..." />
-            <marker date="1449697943709" expanded="true" signature="10820:10882" placeholder="UPDATE Users..." />
-            <marker date="1449697943709" expanded="true" signature="11008:11085" placeholder="INSERT INTO Users..." />
-            <marker date="1449697943709" expanded="true" signature="12359:12410" placeholder="SELECT * FRO..Users..." />
-            <marker date="1449697943709" expanded="true" signature="12565:12623" placeholder="SELECT * FRO..Friends..." />
-            <marker date="1449697943709" expanded="true" signature="12808:12867" placeholder="INSERT INTO Friends..." />
-            <marker date="1449697943709" expanded="true" signature="14308:14366" placeholder="SELECT * FRO..Friends..." />
-            <marker date="1449697943709" expanded="true" signature="14534:14593" placeholder="INSERT INTO Friends..." />
-            <marker date="1449697943709" expanded="true" signature="16027:16085" placeholder="SELECT * FRO..StaticEvents..." />
-            <marker date="1449697943709" expanded="true" signature="16253:16316" placeholder="UPDATE Stati..." />
-            <marker date="1449697943709" expanded="true" signature="16372:16433" placeholder="UPDATE Stati..." />
-            <marker date="1449697943709" expanded="true" signature="16489:16542" placeholder="UPDATE Stati..." />
-            <marker date="1449697943709" expanded="true" signature="16598:16653" placeholder="UPDATE Stati..." />
-            <marker date="1449697943709" expanded="true" signature="16799:16961" placeholder="INSERT INTO StaticEvents..." />
-            <marker date="1449697943709" expanded="true" signature="18435:18467" placeholder="SELECT MAX(I..StaticEvents..." />
-            <marker date="1449697943709" expanded="true" signature="18610:18762" placeholder="INSERT INTO StaticEvents..." />
-            <marker date="1449697943709" expanded="true" signature="20148:20207" placeholder="SELECT * FRO..DynamicEvents..." />
-            <marker date="1449697943709" expanded="true" signature="20376:20446" placeholder="UPDATE Dynam..." />
-            <marker date="1449697943709" expanded="true" signature="20503:20561" placeholder="UPDATE Dynam..." />
-            <marker date="1449697943709" expanded="true" signature="20618:20672" placeholder="UPDATE Dynam..." />
-            <marker date="1449697943709" expanded="true" signature="20729:20785" placeholder="UPDATE Dynam..." />
-            <marker date="1449697943709" expanded="true" signature="20934:21099" placeholder="INSERT INTO DynamicEvents..." />
-            <marker date="1449697943709" expanded="true" signature="22420:22479" placeholder="SELECT * FRO..DynamicEvents..." />
-            <marker date="1449697943709" expanded="true" signature="22648:22718" placeholder="UPDATE Dynam..." />
-            <marker date="1449697943709" expanded="true" signature="22775:22833" placeholder="UPDATE Dynam..." />
-            <marker date="1449697943709" expanded="true" signature="22890:22944" placeholder="UPDATE Dynam..." />
-            <marker date="1449697943709" expanded="true" signature="23001:23057" placeholder="UPDATE Dynam..." />
-            <marker date="1449697943709" expanded="true" signature="23208:23278" placeholder="INSERT INTO DynamicEvents..." />
-            <marker date="1449697943709" expanded="true" signature="23208:23368" placeholder="INSERT INTO DynamicEvents..." />
-            <marker date="1449697943709" expanded="true" signature="23208:23369" placeholder="INSERT INTO DynamicEvents..." />
-            <marker date="1449697943709" expanded="true" signature="24655:24680" placeholder="SELECT MAX(I..Users..." />
-            <marker date="1449697943709" expanded="true" signature="24817:24894" placeholder="INSERT INTO Users..." />
-            <marker date="1449697943709" expanded="true" signature="25931:25990" placeholder="INSERT INTO Friends..." />
-            <marker date="1449697943709" expanded="true" signature="27402:27434" placeholder="SELECT MAX(I..StaticEvents..." />
-            <marker date="1449697943709" expanded="true" signature="27577:27735" placeholder="INSERT INTO StaticEvents..." />
-            <marker date="1449697943709" expanded="true" signature="29178:29211" placeholder="SELECT MAX(I..DynamicEvents..." />
-            <marker date="1449697943709" expanded="true" signature="29355:29516" placeholder="INSERT INTO DynamicEvents..." />
-            <marker date="1449697943709" expanded="true" signature="30469:30496" placeholder="DELETE FROM ..." />
-            <marker date="1449697943709" expanded="true" signature="31492:31555" placeholder="DELETE FROM ..." />
-            <marker date="1449697943709" expanded="true" signature="32598:32660" placeholder="DELETE FROM ..." />
-            <marker date="1449697943709" expanded="true" signature="33714:33778" placeholder="DELETE FROM ..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Shuffleboard.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="docComment;method#getPlayer#0;class#Shuffleboard#0" expanded="false" />
-            <element signature="method#getPlayer#0;class#Shuffleboard#0" expanded="false" />
-            <element signature="docComment;method#getPlayerByName#0;class#Shuffleboard#0" expanded="false" />
-            <element signature="docComment;method#getPlayers#0;class#Shuffleboard#0" expanded="false" />
-            <element signature="method#getPlayers#0;class#Shuffleboard#0" expanded="false" />
-            <element signature="docComment;method#getFriended#0;class#Shuffleboard#0" expanded="false" />
-            <element signature="method#getFriended#0;class#Shuffleboard#0" expanded="false" />
-            <element signature="docComment;method#getFriends#0;class#Shuffleboard#0" expanded="false" />
-            <element signature="method#getFriends#0;class#Shuffleboard#0" expanded="false" />
-            <element signature="docComment;method#getStaticEvents#0;class#Shuffleboard#0" expanded="false" />
-            <element signature="method#getStaticEvents#0;class#Shuffleboard#0" expanded="false" />
-            <element signature="docComment;method#getDynamicEvents#0;class#Shuffleboard#0" expanded="false" />
-            <element signature="method#getDynamicEvents#0;class#Shuffleboard#0" expanded="false" />
-            <element signature="docComment;method#putUser#0;class#Shuffleboard#0" expanded="false" />
-            <element signature="method#putUser#0;class#Shuffleboard#0" expanded="false" />
-            <element signature="docComment;method#putFriends#0;class#Shuffleboard#0" expanded="false" />
-            <element signature="method#putFriends#0;class#Shuffleboard#0" expanded="false" />
-            <element signature="docComment;method#putFriends#1;class#Shuffleboard#0" expanded="false" />
-            <element signature="method#putFriends#1;class#Shuffleboard#0" expanded="false" />
-            <element signature="docComment;method#putStaticEvent#0;class#Shuffleboard#0" expanded="false" />
-            <element signature="method#putStaticEvent#0;class#Shuffleboard#0" expanded="false" />
-            <element signature="docComment;method#putStaticEventLong#0;class#Shuffleboard#0" expanded="false" />
-            <element signature="method#putStaticEventLong#0;class#Shuffleboard#0" expanded="false" />
-            <element signature="docComment;method#putDynamicEvent#0;class#Shuffleboard#0" expanded="false" />
-            <element signature="method#putDynamicEvent#0;class#Shuffleboard#0" expanded="false" />
-            <element signature="docComment;method#putDynamicEventLong#0;class#Shuffleboard#0" expanded="false" />
-            <element signature="method#putDynamicEventLong#0;class#Shuffleboard#0" expanded="false" />
-            <element signature="docComment;method#postUser#0;class#Shuffleboard#0" expanded="false" />
-            <element signature="method#postUser#0;class#Shuffleboard#0" expanded="false" />
-            <element signature="docComment;method#postFriend#0;class#Shuffleboard#0" expanded="false" />
-            <element signature="method#postFriend#0;class#Shuffleboard#0" expanded="false" />
-            <element signature="docComment;method#postStaticEvent#0;class#Shuffleboard#0" expanded="false" />
-            <element signature="method#postStaticEvent#0;class#Shuffleboard#0" expanded="false" />
-            <element signature="docComment;method#postDynamicEvent#0;class#Shuffleboard#0" expanded="false" />
-            <element signature="method#postDynamicEvent#0;class#Shuffleboard#0" expanded="false" />
-            <element signature="docComment;method#deleteUser#0;class#Shuffleboard#0" expanded="false" />
-            <element signature="method#deleteUser#0;class#Shuffleboard#0" expanded="false" />
-            <element signature="docComment;method#deleteFriend#0;class#Shuffleboard#0" expanded="false" />
-            <element signature="method#deleteFriend#0;class#Shuffleboard#0" expanded="false" />
-            <element signature="docComment;method#deleteStaticEvent#0;class#Shuffleboard#0" expanded="false" />
-            <element signature="method#deleteStaticEvent#0;class#Shuffleboard#0" expanded="false" />
-            <element signature="docComment;method#deleteDynamicEvent#0;class#Shuffleboard#0" expanded="false" />
-            <element signature="method#deleteDynamicEvent#0;class#Shuffleboard#0" expanded="false" />
-            <element signature="docComment;method#main#0;class#Shuffleboard#0" expanded="false" />
-            <marker date="1449697943709" expanded="true" signature="1466:1495" placeholder="SELECT * FRO..Users..." />
-            <marker date="1449697943709" expanded="true" signature="2604:2654" placeholder="SELECT id FR..Users..." />
-            <marker date="1449697943709" expanded="true" signature="3559:3578" placeholder="SELECT * FRO..Users..." />
-            <marker date="1449697943709" expanded="true" signature="4675:4748" placeholder="SELECT name ..Friends..." />
-            <marker date="1449697943709" expanded="true" signature="5078:5151" placeholder="SELECT name ..Friends..." />
-            <marker date="1449697943709" expanded="true" signature="6233:6306" placeholder="SELECT name ..Friends..." />
-            <marker date="1449697943709" expanded="true" signature="7360:7524" placeholder="SELECT DISTI..Users..." />
-            <marker date="1449697943709" expanded="true" signature="8796:8964" placeholder="SELECT DISTI..Users..." />
-            <marker date="1449697943709" expanded="true" signature="10557:10586" placeholder="SELECT * FRO..Users..." />
-            <marker date="1449697943709" expanded="true" signature="10724:10770" placeholder="UPDATE Users..." />
-            <marker date="1449697943709" expanded="true" signature="10820:10882" placeholder="UPDATE Users..." />
-            <marker date="1449697943709" expanded="true" signature="11008:11085" placeholder="INSERT INTO Users..." />
-            <marker date="1449697943709" expanded="true" signature="12359:12410" placeholder="SELECT * FRO..Users..." />
-            <marker date="1449697943709" expanded="true" signature="12565:12623" placeholder="SELECT * FRO..Friends..." />
-            <marker date="1449697943709" expanded="true" signature="12808:12867" placeholder="INSERT INTO Friends..." />
-            <marker date="1449697943709" expanded="true" signature="14308:14366" placeholder="SELECT * FRO..Friends..." />
-            <marker date="1449697943709" expanded="true" signature="14534:14593" placeholder="INSERT INTO Friends..." />
-            <marker date="1449697943709" expanded="true" signature="16027:16085" placeholder="SELECT * FRO..StaticEvents..." />
-            <marker date="1449697943709" expanded="true" signature="16253:16316" placeholder="UPDATE Stati..." />
-            <marker date="1449697943709" expanded="true" signature="16372:16433" placeholder="UPDATE Stati..." />
-            <marker date="1449697943709" expanded="true" signature="16489:16542" placeholder="UPDATE Stati..." />
-            <marker date="1449697943709" expanded="true" signature="16598:16653" placeholder="UPDATE Stati..." />
-            <marker date="1449697943709" expanded="true" signature="16799:16961" placeholder="INSERT INTO StaticEvents..." />
-            <marker date="1449697943709" expanded="true" signature="18435:18467" placeholder="SELECT MAX(I..StaticEvents..." />
-            <marker date="1449697943709" expanded="true" signature="18610:18762" placeholder="INSERT INTO StaticEvents..." />
-            <marker date="1449697943709" expanded="true" signature="20148:20207" placeholder="SELECT * FRO..DynamicEvents..." />
-            <marker date="1449697943709" expanded="true" signature="20376:20446" placeholder="UPDATE Dynam..." />
-            <marker date="1449697943709" expanded="true" signature="20503:20561" placeholder="UPDATE Dynam..." />
-            <marker date="1449697943709" expanded="true" signature="20618:20672" placeholder="UPDATE Dynam..." />
-            <marker date="1449697943709" expanded="true" signature="20729:20785" placeholder="UPDATE Dynam..." />
-            <marker date="1449697943709" expanded="true" signature="20934:21099" placeholder="INSERT INTO DynamicEvents..." />
-            <marker date="1449697943709" expanded="true" signature="22420:22479" placeholder="SELECT * FRO..DynamicEvents..." />
-            <marker date="1449697943709" expanded="true" signature="22648:22718" placeholder="UPDATE Dynam..." />
-            <marker date="1449697943709" expanded="true" signature="22775:22833" placeholder="UPDATE Dynam..." />
-            <marker date="1449697943709" expanded="true" signature="22890:22944" placeholder="UPDATE Dynam..." />
-            <marker date="1449697943709" expanded="true" signature="23001:23057" placeholder="UPDATE Dynam..." />
-            <marker date="1449697943709" expanded="true" signature="23208:23278" placeholder="INSERT INTO DynamicEvents..." />
-            <marker date="1449697943709" expanded="true" signature="23208:23368" placeholder="INSERT INTO DynamicEvents..." />
-            <marker date="1449697943709" expanded="true" signature="23208:23369" placeholder="INSERT INTO DynamicEvents..." />
-            <marker date="1449697943709" expanded="true" signature="24655:24680" placeholder="SELECT MAX(I..Users..." />
-            <marker date="1449697943709" expanded="true" signature="24817:24894" placeholder="INSERT INTO Users..." />
-            <marker date="1449697943709" expanded="true" signature="25931:25990" placeholder="INSERT INTO Friends..." />
-            <marker date="1449697943709" expanded="true" signature="27402:27434" placeholder="SELECT MAX(I..StaticEvents..." />
-            <marker date="1449697943709" expanded="true" signature="27577:27735" placeholder="INSERT INTO StaticEvents..." />
-            <marker date="1449697943709" expanded="true" signature="29178:29211" placeholder="SELECT MAX(I..DynamicEvents..." />
-            <marker date="1449697943709" expanded="true" signature="29355:29516" placeholder="INSERT INTO DynamicEvents..." />
-            <marker date="1449697943709" expanded="true" signature="30469:30496" placeholder="DELETE FROM ..." />
-            <marker date="1449697943709" expanded="true" signature="31492:31555" placeholder="DELETE FROM ..." />
-            <marker date="1449697943709" expanded="true" signature="32598:32660" placeholder="DELETE FROM ..." />
-            <marker date="1449697943709" expanded="true" signature="33714:33778" placeholder="DELETE FROM ..." />
+            <marker date="1450116190615" expanded="true" signature="1466:1495" placeholder="SELECT * FRO..Users..." />
+            <marker date="1450116190615" expanded="true" signature="2604:2654" placeholder="SELECT id FR..Users..." />
+            <marker date="1450116190615" expanded="true" signature="3559:3578" placeholder="SELECT * FRO..Users..." />
+            <marker date="1450116190615" expanded="true" signature="4675:4748" placeholder="SELECT name ..Friends..." />
+            <marker date="1450116190615" expanded="true" signature="5078:5151" placeholder="SELECT name ..Friends..." />
+            <marker date="1450116190615" expanded="true" signature="6233:6306" placeholder="SELECT name ..Friends..." />
+            <marker date="1450116190615" expanded="true" signature="7360:7524" placeholder="SELECT DISTI..Users..." />
+            <marker date="1450116190615" expanded="true" signature="8796:8964" placeholder="SELECT DISTI..Users..." />
+            <marker date="1450116190615" expanded="true" signature="10557:10586" placeholder="SELECT * FRO..Users..." />
+            <marker date="1450116190615" expanded="true" signature="10724:10770" placeholder="UPDATE Users..." />
+            <marker date="1450116190615" expanded="true" signature="10820:10882" placeholder="UPDATE Users..." />
+            <marker date="1450116190615" expanded="true" signature="11008:11085" placeholder="INSERT INTO Users..." />
+            <marker date="1450116190615" expanded="true" signature="12359:12410" placeholder="SELECT * FRO..Users..." />
+            <marker date="1450116190615" expanded="true" signature="12565:12623" placeholder="SELECT * FRO..Friends..." />
+            <marker date="1450116190615" expanded="true" signature="12808:12867" placeholder="INSERT INTO Friends..." />
+            <marker date="1450116190615" expanded="true" signature="14308:14366" placeholder="SELECT * FRO..Friends..." />
+            <marker date="1450116190615" expanded="true" signature="14534:14593" placeholder="INSERT INTO Friends..." />
+            <marker date="1450116190615" expanded="true" signature="16027:16085" placeholder="SELECT * FRO..StaticEvents..." />
+            <marker date="1450116190615" expanded="true" signature="16253:16316" placeholder="UPDATE Stati..." />
+            <marker date="1450116190615" expanded="true" signature="16372:16433" placeholder="UPDATE Stati..." />
+            <marker date="1450116190615" expanded="true" signature="16489:16542" placeholder="UPDATE Stati..." />
+            <marker date="1450116190615" expanded="true" signature="16598:16653" placeholder="UPDATE Stati..." />
+            <marker date="1450116190615" expanded="true" signature="16799:16961" placeholder="INSERT INTO StaticEvents..." />
+            <marker date="1450116190615" expanded="true" signature="18435:18467" placeholder="SELECT MAX(I..StaticEvents..." />
+            <marker date="1450116190615" expanded="true" signature="18610:18762" placeholder="INSERT INTO StaticEvents..." />
+            <marker date="1450116190615" expanded="true" signature="20148:20207" placeholder="SELECT * FRO..DynamicEvents..." />
+            <marker date="1450116190615" expanded="true" signature="20376:20446" placeholder="UPDATE Dynam..." />
+            <marker date="1450116190615" expanded="true" signature="20503:20561" placeholder="UPDATE Dynam..." />
+            <marker date="1450116190615" expanded="true" signature="20618:20672" placeholder="UPDATE Dynam..." />
+            <marker date="1450116190615" expanded="true" signature="20729:20785" placeholder="UPDATE Dynam..." />
+            <marker date="1450116190615" expanded="true" signature="20934:21099" placeholder="INSERT INTO DynamicEvents..." />
+            <marker date="1450116190615" expanded="true" signature="22473:22532" placeholder="SELECT * FRO..DynamicEvents..." />
+            <marker date="1450116190615" expanded="true" signature="22701:22771" placeholder="UPDATE Dynam..." />
+            <marker date="1450116190615" expanded="true" signature="22828:22886" placeholder="UPDATE Dynam..." />
+            <marker date="1450116190615" expanded="true" signature="22943:22997" placeholder="UPDATE Dynam..." />
+            <marker date="1450116190615" expanded="true" signature="23054:23110" placeholder="UPDATE Dynam..." />
+            <marker date="1450116190615" expanded="true" signature="23261:23331" placeholder="INSERT INTO DynamicEvents..." />
+            <marker date="1450116190615" expanded="true" signature="23261:23421" placeholder="INSERT INTO DynamicEvents..." />
+            <marker date="1450116190615" expanded="true" signature="23261:23422" placeholder="INSERT INTO DynamicEvents..." />
+            <marker date="1450116190615" expanded="true" signature="24777:24816" placeholder="UPDATE Dynam..." />
+            <marker date="1450116190615" expanded="true" signature="24777:24846" placeholder="UPDATE Dynam..." />
+            <marker date="1450116190615" expanded="true" signature="24777:24865" placeholder="UPDATE Dynam..." />
+            <marker date="1450116190615" expanded="true" signature="24777:24873" placeholder="UPDATE Dynam..." />
+            <marker date="1450116190615" expanded="true" signature="24923:24986" placeholder="UPDATE Dynam..." />
+            <marker date="1450116190615" expanded="true" signature="24923:25013" placeholder="UPDATE Dynam..." />
+            <marker date="1450116190615" expanded="true" signature="25063:25124" placeholder="UPDATE Dynam..." />
+            <marker date="1450116190615" expanded="true" signature="25063:25151" placeholder="UPDATE Dynam..." />
+            <marker date="1450116190615" expanded="true" signature="25201:25263" placeholder="UPDATE Dynam..." />
+            <marker date="1450116190615" expanded="true" signature="25201:25290" placeholder="UPDATE Dynam..." />
+            <marker date="1450116190615" expanded="true" signature="26500:26525" placeholder="SELECT MAX(I..Users..." />
+            <marker date="1450116190615" expanded="true" signature="26662:26739" placeholder="INSERT INTO Users..." />
+            <marker date="1450116190615" expanded="true" signature="27776:27835" placeholder="INSERT INTO Friends..." />
+            <marker date="1450116190615" expanded="true" signature="29247:29279" placeholder="SELECT MAX(I..StaticEvents..." />
+            <marker date="1450116190615" expanded="true" signature="29422:29580" placeholder="INSERT INTO StaticEvents..." />
+            <marker date="1450116190615" expanded="true" signature="31023:31056" placeholder="SELECT MAX(I..DynamicEvents..." />
+            <marker date="1450116190615" expanded="true" signature="31200:31361" placeholder="INSERT INTO DynamicEvents..." />
+            <marker date="1450116190615" expanded="true" signature="32314:32341" placeholder="DELETE FROM ..." />
+            <marker date="1450116190615" expanded="true" signature="33337:33400" placeholder="DELETE FROM ..." />
+            <marker date="1450116190615" expanded="true" signature="34443:34505" placeholder="DELETE FROM ..." />
+            <marker date="1450116190615" expanded="true" signature="35559:35623" placeholder="DELETE FROM ..." />
           </folding>
         </state>
       </provider>
@@ -1641,19 +1332,19 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Shuffleboard.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.67782426">
-          <caret line="796" column="5" selection-start-line="796" selection-start-column="5" selection-end-line="796" selection-end-column="5" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="docComment;method#getPlayer#0;class#Shuffleboard#0" expanded="false" />
             <element signature="method#getPlayer#0;class#Shuffleboard#0" expanded="false" />
             <element signature="docComment;method#getPlayerByName#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="method#getPlayerByName#0;class#Shuffleboard#0" expanded="false" />
             <element signature="docComment;method#getPlayers#0;class#Shuffleboard#0" expanded="false" />
             <element signature="method#getPlayers#0;class#Shuffleboard#0" expanded="false" />
             <element signature="docComment;method#getFriended#0;class#Shuffleboard#0" expanded="false" />
@@ -1677,7 +1368,7 @@
             <element signature="docComment;method#putDynamicEvent#0;class#Shuffleboard#0" expanded="false" />
             <element signature="method#putDynamicEvent#0;class#Shuffleboard#0" expanded="false" />
             <element signature="docComment;method#putDynamicEventLong#0;class#Shuffleboard#0" expanded="false" />
-            <element signature="method#putDynamicEventLong#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="docComment;method#editDynamicEvent#0;class#Shuffleboard#0" expanded="false" />
             <element signature="docComment;method#postUser#0;class#Shuffleboard#0" expanded="false" />
             <element signature="method#postUser#0;class#Shuffleboard#0" expanded="false" />
             <element signature="docComment;method#postFriend#0;class#Shuffleboard#0" expanded="false" />
@@ -1695,56 +1386,763 @@
             <element signature="docComment;method#deleteDynamicEvent#0;class#Shuffleboard#0" expanded="false" />
             <element signature="method#deleteDynamicEvent#0;class#Shuffleboard#0" expanded="false" />
             <element signature="docComment;method#main#0;class#Shuffleboard#0" expanded="false" />
-            <marker date="1449697943709" expanded="true" signature="1466:1495" placeholder="SELECT * FRO..Users..." />
-            <marker date="1449697943709" expanded="true" signature="2604:2654" placeholder="SELECT id FR..Users..." />
-            <marker date="1449697943709" expanded="true" signature="3559:3578" placeholder="SELECT * FRO..Users..." />
-            <marker date="1449697943709" expanded="true" signature="4675:4748" placeholder="SELECT name ..Friends..." />
-            <marker date="1449697943709" expanded="true" signature="5078:5151" placeholder="SELECT name ..Friends..." />
-            <marker date="1449697943709" expanded="true" signature="6233:6306" placeholder="SELECT name ..Friends..." />
-            <marker date="1449697943709" expanded="true" signature="7360:7524" placeholder="SELECT DISTI..Users..." />
-            <marker date="1449697943709" expanded="true" signature="8796:8964" placeholder="SELECT DISTI..Users..." />
-            <marker date="1449697943709" expanded="true" signature="10557:10586" placeholder="SELECT * FRO..Users..." />
-            <marker date="1449697943709" expanded="true" signature="10724:10770" placeholder="UPDATE Users..." />
-            <marker date="1449697943709" expanded="true" signature="10820:10882" placeholder="UPDATE Users..." />
-            <marker date="1449697943709" expanded="true" signature="11008:11085" placeholder="INSERT INTO Users..." />
-            <marker date="1449697943709" expanded="true" signature="12359:12410" placeholder="SELECT * FRO..Users..." />
-            <marker date="1449697943709" expanded="true" signature="12565:12623" placeholder="SELECT * FRO..Friends..." />
-            <marker date="1449697943709" expanded="true" signature="12808:12867" placeholder="INSERT INTO Friends..." />
-            <marker date="1449697943709" expanded="true" signature="14308:14366" placeholder="SELECT * FRO..Friends..." />
-            <marker date="1449697943709" expanded="true" signature="14534:14593" placeholder="INSERT INTO Friends..." />
-            <marker date="1449697943709" expanded="true" signature="16027:16085" placeholder="SELECT * FRO..StaticEvents..." />
-            <marker date="1449697943709" expanded="true" signature="16253:16316" placeholder="UPDATE Stati..." />
-            <marker date="1449697943709" expanded="true" signature="16372:16433" placeholder="UPDATE Stati..." />
-            <marker date="1449697943709" expanded="true" signature="16489:16542" placeholder="UPDATE Stati..." />
-            <marker date="1449697943709" expanded="true" signature="16598:16653" placeholder="UPDATE Stati..." />
-            <marker date="1449697943709" expanded="true" signature="16799:16961" placeholder="INSERT INTO StaticEvents..." />
-            <marker date="1449697943709" expanded="true" signature="18435:18467" placeholder="SELECT MAX(I..StaticEvents..." />
-            <marker date="1449697943709" expanded="true" signature="18610:18762" placeholder="INSERT INTO StaticEvents..." />
-            <marker date="1449697943709" expanded="true" signature="20148:20207" placeholder="SELECT * FRO..DynamicEvents..." />
-            <marker date="1449697943709" expanded="true" signature="20376:20446" placeholder="UPDATE Dynam..." />
-            <marker date="1449697943709" expanded="true" signature="20503:20561" placeholder="UPDATE Dynam..." />
-            <marker date="1449697943709" expanded="true" signature="20618:20672" placeholder="UPDATE Dynam..." />
-            <marker date="1449697943709" expanded="true" signature="20729:20785" placeholder="UPDATE Dynam..." />
-            <marker date="1449697943709" expanded="true" signature="20934:21099" placeholder="INSERT INTO DynamicEvents..." />
-            <marker date="1449697943709" expanded="true" signature="22420:22479" placeholder="SELECT * FRO..DynamicEvents..." />
-            <marker date="1449697943709" expanded="true" signature="22648:22718" placeholder="UPDATE Dynam..." />
-            <marker date="1449697943709" expanded="true" signature="22775:22833" placeholder="UPDATE Dynam..." />
-            <marker date="1449697943709" expanded="true" signature="22890:22944" placeholder="UPDATE Dynam..." />
-            <marker date="1449697943709" expanded="true" signature="23001:23057" placeholder="UPDATE Dynam..." />
-            <marker date="1449697943709" expanded="true" signature="23208:23278" placeholder="INSERT INTO DynamicEvents..." />
-            <marker date="1449697943709" expanded="true" signature="23208:23368" placeholder="INSERT INTO DynamicEvents..." />
-            <marker date="1449697943709" expanded="true" signature="23208:23369" placeholder="INSERT INTO DynamicEvents..." />
-            <marker date="1449697943709" expanded="true" signature="24655:24680" placeholder="SELECT MAX(I..Users..." />
-            <marker date="1449697943709" expanded="true" signature="24817:24894" placeholder="INSERT INTO Users..." />
-            <marker date="1449697943709" expanded="true" signature="25931:25990" placeholder="INSERT INTO Friends..." />
-            <marker date="1449697943709" expanded="true" signature="27402:27434" placeholder="SELECT MAX(I..StaticEvents..." />
-            <marker date="1449697943709" expanded="true" signature="27577:27735" placeholder="INSERT INTO StaticEvents..." />
-            <marker date="1449697943709" expanded="true" signature="29178:29211" placeholder="SELECT MAX(I..DynamicEvents..." />
-            <marker date="1449697943709" expanded="true" signature="29355:29516" placeholder="INSERT INTO DynamicEvents..." />
-            <marker date="1449697943709" expanded="true" signature="30469:30496" placeholder="DELETE FROM ..." />
-            <marker date="1449697943709" expanded="true" signature="31492:31555" placeholder="DELETE FROM ..." />
-            <marker date="1449697943709" expanded="true" signature="32598:32660" placeholder="DELETE FROM ..." />
-            <marker date="1449697943709" expanded="true" signature="33714:33778" placeholder="DELETE FROM ..." />
+            <marker date="1450116190615" expanded="true" signature="1466:1495" placeholder="SELECT * FRO..Users..." />
+            <marker date="1450116190615" expanded="true" signature="2604:2654" placeholder="SELECT id FR..Users..." />
+            <marker date="1450116190615" expanded="true" signature="3559:3578" placeholder="SELECT * FRO..Users..." />
+            <marker date="1450116190615" expanded="true" signature="4675:4748" placeholder="SELECT name ..Friends..." />
+            <marker date="1450116190615" expanded="true" signature="5078:5151" placeholder="SELECT name ..Friends..." />
+            <marker date="1450116190615" expanded="true" signature="6233:6306" placeholder="SELECT name ..Friends..." />
+            <marker date="1450116190615" expanded="true" signature="7360:7524" placeholder="SELECT DISTI..Users..." />
+            <marker date="1450116190615" expanded="true" signature="8796:8964" placeholder="SELECT DISTI..Users..." />
+            <marker date="1450116190615" expanded="true" signature="10557:10586" placeholder="SELECT * FRO..Users..." />
+            <marker date="1450116190615" expanded="true" signature="10724:10770" placeholder="UPDATE Users..." />
+            <marker date="1450116190615" expanded="true" signature="10820:10882" placeholder="UPDATE Users..." />
+            <marker date="1450116190615" expanded="true" signature="11008:11085" placeholder="INSERT INTO Users..." />
+            <marker date="1450116190615" expanded="true" signature="12359:12410" placeholder="SELECT * FRO..Users..." />
+            <marker date="1450116190615" expanded="true" signature="12565:12623" placeholder="SELECT * FRO..Friends..." />
+            <marker date="1450116190615" expanded="true" signature="12808:12867" placeholder="INSERT INTO Friends..." />
+            <marker date="1450116190615" expanded="true" signature="14308:14366" placeholder="SELECT * FRO..Friends..." />
+            <marker date="1450116190615" expanded="true" signature="14534:14593" placeholder="INSERT INTO Friends..." />
+            <marker date="1450116190615" expanded="true" signature="16027:16085" placeholder="SELECT * FRO..StaticEvents..." />
+            <marker date="1450116190615" expanded="true" signature="16253:16316" placeholder="UPDATE Stati..." />
+            <marker date="1450116190615" expanded="true" signature="16372:16433" placeholder="UPDATE Stati..." />
+            <marker date="1450116190615" expanded="true" signature="16489:16542" placeholder="UPDATE Stati..." />
+            <marker date="1450116190615" expanded="true" signature="16598:16653" placeholder="UPDATE Stati..." />
+            <marker date="1450116190615" expanded="true" signature="16799:16961" placeholder="INSERT INTO StaticEvents..." />
+            <marker date="1450116190615" expanded="true" signature="18435:18467" placeholder="SELECT MAX(I..StaticEvents..." />
+            <marker date="1450116190615" expanded="true" signature="18610:18762" placeholder="INSERT INTO StaticEvents..." />
+            <marker date="1450116190615" expanded="true" signature="20148:20207" placeholder="SELECT * FRO..DynamicEvents..." />
+            <marker date="1450116190615" expanded="true" signature="20376:20446" placeholder="UPDATE Dynam..." />
+            <marker date="1450116190615" expanded="true" signature="20503:20561" placeholder="UPDATE Dynam..." />
+            <marker date="1450116190615" expanded="true" signature="20618:20672" placeholder="UPDATE Dynam..." />
+            <marker date="1450116190615" expanded="true" signature="20729:20785" placeholder="UPDATE Dynam..." />
+            <marker date="1450116190615" expanded="true" signature="20934:21099" placeholder="INSERT INTO DynamicEvents..." />
+            <marker date="1450116190615" expanded="true" signature="22473:22532" placeholder="SELECT * FRO..DynamicEvents..." />
+            <marker date="1450116190615" expanded="true" signature="22701:22771" placeholder="UPDATE Dynam..." />
+            <marker date="1450116190615" expanded="true" signature="22828:22886" placeholder="UPDATE Dynam..." />
+            <marker date="1450116190615" expanded="true" signature="22943:22997" placeholder="UPDATE Dynam..." />
+            <marker date="1450116190615" expanded="true" signature="23054:23110" placeholder="UPDATE Dynam..." />
+            <marker date="1450116190615" expanded="true" signature="23261:23331" placeholder="INSERT INTO DynamicEvents..." />
+            <marker date="1450116190615" expanded="true" signature="23261:23421" placeholder="INSERT INTO DynamicEvents..." />
+            <marker date="1450116190615" expanded="true" signature="23261:23422" placeholder="INSERT INTO DynamicEvents..." />
+            <marker date="1450116190615" expanded="true" signature="24777:24816" placeholder="UPDATE Dynam..." />
+            <marker date="1450116190615" expanded="true" signature="24777:24846" placeholder="UPDATE Dynam..." />
+            <marker date="1450116190615" expanded="true" signature="24777:24865" placeholder="UPDATE Dynam..." />
+            <marker date="1450116190615" expanded="true" signature="24777:24873" placeholder="UPDATE Dynam..." />
+            <marker date="1450116190615" expanded="true" signature="24923:24986" placeholder="UPDATE Dynam..." />
+            <marker date="1450116190615" expanded="true" signature="24923:25013" placeholder="UPDATE Dynam..." />
+            <marker date="1450116190615" expanded="true" signature="25063:25124" placeholder="UPDATE Dynam..." />
+            <marker date="1450116190615" expanded="true" signature="25063:25151" placeholder="UPDATE Dynam..." />
+            <marker date="1450116190615" expanded="true" signature="25201:25263" placeholder="UPDATE Dynam..." />
+            <marker date="1450116190615" expanded="true" signature="25201:25290" placeholder="UPDATE Dynam..." />
+            <marker date="1450116190615" expanded="true" signature="26500:26525" placeholder="SELECT MAX(I..Users..." />
+            <marker date="1450116190615" expanded="true" signature="26662:26739" placeholder="INSERT INTO Users..." />
+            <marker date="1450116190615" expanded="true" signature="27776:27835" placeholder="INSERT INTO Friends..." />
+            <marker date="1450116190615" expanded="true" signature="29247:29279" placeholder="SELECT MAX(I..StaticEvents..." />
+            <marker date="1450116190615" expanded="true" signature="29422:29580" placeholder="INSERT INTO StaticEvents..." />
+            <marker date="1450116190615" expanded="true" signature="31023:31056" placeholder="SELECT MAX(I..DynamicEvents..." />
+            <marker date="1450116190615" expanded="true" signature="31200:31361" placeholder="INSERT INTO DynamicEvents..." />
+            <marker date="1450116190615" expanded="true" signature="32314:32341" placeholder="DELETE FROM ..." />
+            <marker date="1450116190615" expanded="true" signature="33337:33400" placeholder="DELETE FROM ..." />
+            <marker date="1450116190615" expanded="true" signature="34443:34505" placeholder="DELETE FROM ..." />
+            <marker date="1450116190615" expanded="true" signature="35559:35623" placeholder="DELETE FROM ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Shuffleboard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="docComment;method#getPlayer#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="method#getPlayer#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="docComment;method#getPlayerByName#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="method#getPlayerByName#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="docComment;method#getPlayers#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="method#getPlayers#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="docComment;method#getFriended#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="method#getFriended#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="docComment;method#getFriends#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="method#getFriends#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="docComment;method#getStaticEvents#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="method#getStaticEvents#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="docComment;method#getDynamicEvents#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="method#getDynamicEvents#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="docComment;method#putUser#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="method#putUser#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="docComment;method#putFriends#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="method#putFriends#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="docComment;method#putFriends#1;class#Shuffleboard#0" expanded="false" />
+            <element signature="method#putFriends#1;class#Shuffleboard#0" expanded="false" />
+            <element signature="docComment;method#putStaticEvent#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="method#putStaticEvent#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="docComment;method#putStaticEventLong#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="method#putStaticEventLong#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="docComment;method#putDynamicEvent#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="method#putDynamicEvent#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="docComment;method#putDynamicEventLong#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="docComment;method#editDynamicEvent#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="docComment;method#postUser#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="method#postUser#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="docComment;method#postFriend#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="method#postFriend#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="docComment;method#postStaticEvent#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="method#postStaticEvent#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="docComment;method#postDynamicEvent#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="method#postDynamicEvent#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="docComment;method#deleteUser#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="method#deleteUser#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="docComment;method#deleteFriend#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="method#deleteFriend#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="docComment;method#deleteStaticEvent#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="method#deleteStaticEvent#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="docComment;method#deleteDynamicEvent#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="method#deleteDynamicEvent#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="docComment;method#main#0;class#Shuffleboard#0" expanded="false" />
+            <marker date="1450116190615" expanded="true" signature="1466:1495" placeholder="SELECT * FRO..Users..." />
+            <marker date="1450116190615" expanded="true" signature="2604:2654" placeholder="SELECT id FR..Users..." />
+            <marker date="1450116190615" expanded="true" signature="3559:3578" placeholder="SELECT * FRO..Users..." />
+            <marker date="1450116190615" expanded="true" signature="4675:4748" placeholder="SELECT name ..Friends..." />
+            <marker date="1450116190615" expanded="true" signature="5078:5151" placeholder="SELECT name ..Friends..." />
+            <marker date="1450116190615" expanded="true" signature="6233:6306" placeholder="SELECT name ..Friends..." />
+            <marker date="1450116190615" expanded="true" signature="7360:7524" placeholder="SELECT DISTI..Users..." />
+            <marker date="1450116190615" expanded="true" signature="8796:8964" placeholder="SELECT DISTI..Users..." />
+            <marker date="1450116190615" expanded="true" signature="10557:10586" placeholder="SELECT * FRO..Users..." />
+            <marker date="1450116190615" expanded="true" signature="10724:10770" placeholder="UPDATE Users..." />
+            <marker date="1450116190615" expanded="true" signature="10820:10882" placeholder="UPDATE Users..." />
+            <marker date="1450116190615" expanded="true" signature="11008:11085" placeholder="INSERT INTO Users..." />
+            <marker date="1450116190615" expanded="true" signature="12359:12410" placeholder="SELECT * FRO..Users..." />
+            <marker date="1450116190615" expanded="true" signature="12565:12623" placeholder="SELECT * FRO..Friends..." />
+            <marker date="1450116190615" expanded="true" signature="12808:12867" placeholder="INSERT INTO Friends..." />
+            <marker date="1450116190615" expanded="true" signature="14308:14366" placeholder="SELECT * FRO..Friends..." />
+            <marker date="1450116190615" expanded="true" signature="14534:14593" placeholder="INSERT INTO Friends..." />
+            <marker date="1450116190615" expanded="true" signature="16027:16085" placeholder="SELECT * FRO..StaticEvents..." />
+            <marker date="1450116190615" expanded="true" signature="16253:16316" placeholder="UPDATE Stati..." />
+            <marker date="1450116190615" expanded="true" signature="16372:16433" placeholder="UPDATE Stati..." />
+            <marker date="1450116190615" expanded="true" signature="16489:16542" placeholder="UPDATE Stati..." />
+            <marker date="1450116190615" expanded="true" signature="16598:16653" placeholder="UPDATE Stati..." />
+            <marker date="1450116190615" expanded="true" signature="16799:16961" placeholder="INSERT INTO StaticEvents..." />
+            <marker date="1450116190615" expanded="true" signature="18435:18467" placeholder="SELECT MAX(I..StaticEvents..." />
+            <marker date="1450116190615" expanded="true" signature="18610:18762" placeholder="INSERT INTO StaticEvents..." />
+            <marker date="1450116190615" expanded="true" signature="20148:20207" placeholder="SELECT * FRO..DynamicEvents..." />
+            <marker date="1450116190615" expanded="true" signature="20376:20446" placeholder="UPDATE Dynam..." />
+            <marker date="1450116190615" expanded="true" signature="20503:20561" placeholder="UPDATE Dynam..." />
+            <marker date="1450116190615" expanded="true" signature="20618:20672" placeholder="UPDATE Dynam..." />
+            <marker date="1450116190615" expanded="true" signature="20729:20785" placeholder="UPDATE Dynam..." />
+            <marker date="1450116190615" expanded="true" signature="20934:21099" placeholder="INSERT INTO DynamicEvents..." />
+            <marker date="1450116190615" expanded="true" signature="22473:22532" placeholder="SELECT * FRO..DynamicEvents..." />
+            <marker date="1450116190615" expanded="true" signature="22701:22771" placeholder="UPDATE Dynam..." />
+            <marker date="1450116190615" expanded="true" signature="22828:22886" placeholder="UPDATE Dynam..." />
+            <marker date="1450116190615" expanded="true" signature="22943:22997" placeholder="UPDATE Dynam..." />
+            <marker date="1450116190615" expanded="true" signature="23054:23110" placeholder="UPDATE Dynam..." />
+            <marker date="1450116190615" expanded="true" signature="23261:23331" placeholder="INSERT INTO DynamicEvents..." />
+            <marker date="1450116190615" expanded="true" signature="23261:23421" placeholder="INSERT INTO DynamicEvents..." />
+            <marker date="1450116190615" expanded="true" signature="23261:23422" placeholder="INSERT INTO DynamicEvents..." />
+            <marker date="1450116190615" expanded="true" signature="24777:24816" placeholder="UPDATE Dynam..." />
+            <marker date="1450116190615" expanded="true" signature="24777:24846" placeholder="UPDATE Dynam..." />
+            <marker date="1450116190615" expanded="true" signature="24777:24865" placeholder="UPDATE Dynam..." />
+            <marker date="1450116190615" expanded="true" signature="24777:24873" placeholder="UPDATE Dynam..." />
+            <marker date="1450116190615" expanded="true" signature="24923:24986" placeholder="UPDATE Dynam..." />
+            <marker date="1450116190615" expanded="true" signature="24923:25013" placeholder="UPDATE Dynam..." />
+            <marker date="1450116190615" expanded="true" signature="25063:25124" placeholder="UPDATE Dynam..." />
+            <marker date="1450116190615" expanded="true" signature="25063:25151" placeholder="UPDATE Dynam..." />
+            <marker date="1450116190615" expanded="true" signature="25201:25263" placeholder="UPDATE Dynam..." />
+            <marker date="1450116190615" expanded="true" signature="25201:25290" placeholder="UPDATE Dynam..." />
+            <marker date="1450116190615" expanded="true" signature="26500:26525" placeholder="SELECT MAX(I..Users..." />
+            <marker date="1450116190615" expanded="true" signature="26662:26739" placeholder="INSERT INTO Users..." />
+            <marker date="1450116190615" expanded="true" signature="27776:27835" placeholder="INSERT INTO Friends..." />
+            <marker date="1450116190615" expanded="true" signature="29247:29279" placeholder="SELECT MAX(I..StaticEvents..." />
+            <marker date="1450116190615" expanded="true" signature="29422:29580" placeholder="INSERT INTO StaticEvents..." />
+            <marker date="1450116190615" expanded="true" signature="31023:31056" placeholder="SELECT MAX(I..DynamicEvents..." />
+            <marker date="1450116190615" expanded="true" signature="31200:31361" placeholder="INSERT INTO DynamicEvents..." />
+            <marker date="1450116190615" expanded="true" signature="32314:32341" placeholder="DELETE FROM ..." />
+            <marker date="1450116190615" expanded="true" signature="33337:33400" placeholder="DELETE FROM ..." />
+            <marker date="1450116190615" expanded="true" signature="34443:34505" placeholder="DELETE FROM ..." />
+            <marker date="1450116190615" expanded="true" signature="35559:35623" placeholder="DELETE FROM ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Shuffleboard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="docComment;method#getPlayer#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="method#getPlayer#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="docComment;method#getPlayerByName#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="method#getPlayerByName#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="docComment;method#getPlayers#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="method#getPlayers#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="docComment;method#getFriended#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="method#getFriended#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="docComment;method#getFriends#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="method#getFriends#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="docComment;method#getStaticEvents#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="method#getStaticEvents#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="docComment;method#getDynamicEvents#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="method#getDynamicEvents#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="docComment;method#putUser#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="method#putUser#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="docComment;method#putFriends#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="method#putFriends#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="docComment;method#putFriends#1;class#Shuffleboard#0" expanded="false" />
+            <element signature="method#putFriends#1;class#Shuffleboard#0" expanded="false" />
+            <element signature="docComment;method#putStaticEvent#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="method#putStaticEvent#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="docComment;method#putStaticEventLong#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="method#putStaticEventLong#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="docComment;method#putDynamicEvent#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="method#putDynamicEvent#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="docComment;method#putDynamicEventLong#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="docComment;method#editDynamicEvent#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="docComment;method#postUser#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="method#postUser#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="docComment;method#postFriend#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="method#postFriend#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="docComment;method#postStaticEvent#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="method#postStaticEvent#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="docComment;method#postDynamicEvent#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="method#postDynamicEvent#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="docComment;method#deleteUser#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="method#deleteUser#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="docComment;method#deleteFriend#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="method#deleteFriend#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="docComment;method#deleteStaticEvent#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="method#deleteStaticEvent#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="docComment;method#deleteDynamicEvent#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="method#deleteDynamicEvent#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="docComment;method#main#0;class#Shuffleboard#0" expanded="false" />
+            <marker date="1450116190615" expanded="true" signature="1466:1495" placeholder="SELECT * FRO..Users..." />
+            <marker date="1450116190615" expanded="true" signature="2604:2654" placeholder="SELECT id FR..Users..." />
+            <marker date="1450116190615" expanded="true" signature="3559:3578" placeholder="SELECT * FRO..Users..." />
+            <marker date="1450116190615" expanded="true" signature="4675:4748" placeholder="SELECT name ..Friends..." />
+            <marker date="1450116190615" expanded="true" signature="5078:5151" placeholder="SELECT name ..Friends..." />
+            <marker date="1450116190615" expanded="true" signature="6233:6306" placeholder="SELECT name ..Friends..." />
+            <marker date="1450116190615" expanded="true" signature="7360:7524" placeholder="SELECT DISTI..Users..." />
+            <marker date="1450116190615" expanded="true" signature="8796:8964" placeholder="SELECT DISTI..Users..." />
+            <marker date="1450116190615" expanded="true" signature="10557:10586" placeholder="SELECT * FRO..Users..." />
+            <marker date="1450116190615" expanded="true" signature="10724:10770" placeholder="UPDATE Users..." />
+            <marker date="1450116190615" expanded="true" signature="10820:10882" placeholder="UPDATE Users..." />
+            <marker date="1450116190615" expanded="true" signature="11008:11085" placeholder="INSERT INTO Users..." />
+            <marker date="1450116190615" expanded="true" signature="12359:12410" placeholder="SELECT * FRO..Users..." />
+            <marker date="1450116190615" expanded="true" signature="12565:12623" placeholder="SELECT * FRO..Friends..." />
+            <marker date="1450116190615" expanded="true" signature="12808:12867" placeholder="INSERT INTO Friends..." />
+            <marker date="1450116190615" expanded="true" signature="14308:14366" placeholder="SELECT * FRO..Friends..." />
+            <marker date="1450116190615" expanded="true" signature="14534:14593" placeholder="INSERT INTO Friends..." />
+            <marker date="1450116190615" expanded="true" signature="16027:16085" placeholder="SELECT * FRO..StaticEvents..." />
+            <marker date="1450116190615" expanded="true" signature="16253:16316" placeholder="UPDATE Stati..." />
+            <marker date="1450116190615" expanded="true" signature="16372:16433" placeholder="UPDATE Stati..." />
+            <marker date="1450116190615" expanded="true" signature="16489:16542" placeholder="UPDATE Stati..." />
+            <marker date="1450116190615" expanded="true" signature="16598:16653" placeholder="UPDATE Stati..." />
+            <marker date="1450116190615" expanded="true" signature="16799:16961" placeholder="INSERT INTO StaticEvents..." />
+            <marker date="1450116190615" expanded="true" signature="18435:18467" placeholder="SELECT MAX(I..StaticEvents..." />
+            <marker date="1450116190615" expanded="true" signature="18610:18762" placeholder="INSERT INTO StaticEvents..." />
+            <marker date="1450116190615" expanded="true" signature="20148:20207" placeholder="SELECT * FRO..DynamicEvents..." />
+            <marker date="1450116190615" expanded="true" signature="20376:20446" placeholder="UPDATE Dynam..." />
+            <marker date="1450116190615" expanded="true" signature="20503:20561" placeholder="UPDATE Dynam..." />
+            <marker date="1450116190615" expanded="true" signature="20618:20672" placeholder="UPDATE Dynam..." />
+            <marker date="1450116190615" expanded="true" signature="20729:20785" placeholder="UPDATE Dynam..." />
+            <marker date="1450116190615" expanded="true" signature="20934:21099" placeholder="INSERT INTO DynamicEvents..." />
+            <marker date="1450116190615" expanded="true" signature="22473:22532" placeholder="SELECT * FRO..DynamicEvents..." />
+            <marker date="1450116190615" expanded="true" signature="22701:22771" placeholder="UPDATE Dynam..." />
+            <marker date="1450116190615" expanded="true" signature="22828:22886" placeholder="UPDATE Dynam..." />
+            <marker date="1450116190615" expanded="true" signature="22943:22997" placeholder="UPDATE Dynam..." />
+            <marker date="1450116190615" expanded="true" signature="23054:23110" placeholder="UPDATE Dynam..." />
+            <marker date="1450116190615" expanded="true" signature="23261:23331" placeholder="INSERT INTO DynamicEvents..." />
+            <marker date="1450116190615" expanded="true" signature="23261:23421" placeholder="INSERT INTO DynamicEvents..." />
+            <marker date="1450116190615" expanded="true" signature="23261:23422" placeholder="INSERT INTO DynamicEvents..." />
+            <marker date="1450116190615" expanded="true" signature="24777:24816" placeholder="UPDATE Dynam..." />
+            <marker date="1450116190615" expanded="true" signature="24777:24846" placeholder="UPDATE Dynam..." />
+            <marker date="1450116190615" expanded="true" signature="24777:24865" placeholder="UPDATE Dynam..." />
+            <marker date="1450116190615" expanded="true" signature="24777:24873" placeholder="UPDATE Dynam..." />
+            <marker date="1450116190615" expanded="true" signature="24923:24986" placeholder="UPDATE Dynam..." />
+            <marker date="1450116190615" expanded="true" signature="24923:25013" placeholder="UPDATE Dynam..." />
+            <marker date="1450116190615" expanded="true" signature="25063:25124" placeholder="UPDATE Dynam..." />
+            <marker date="1450116190615" expanded="true" signature="25063:25151" placeholder="UPDATE Dynam..." />
+            <marker date="1450116190615" expanded="true" signature="25201:25263" placeholder="UPDATE Dynam..." />
+            <marker date="1450116190615" expanded="true" signature="25201:25290" placeholder="UPDATE Dynam..." />
+            <marker date="1450116190615" expanded="true" signature="26500:26525" placeholder="SELECT MAX(I..Users..." />
+            <marker date="1450116190615" expanded="true" signature="26662:26739" placeholder="INSERT INTO Users..." />
+            <marker date="1450116190615" expanded="true" signature="27776:27835" placeholder="INSERT INTO Friends..." />
+            <marker date="1450116190615" expanded="true" signature="29247:29279" placeholder="SELECT MAX(I..StaticEvents..." />
+            <marker date="1450116190615" expanded="true" signature="29422:29580" placeholder="INSERT INTO StaticEvents..." />
+            <marker date="1450116190615" expanded="true" signature="31023:31056" placeholder="SELECT MAX(I..DynamicEvents..." />
+            <marker date="1450116190615" expanded="true" signature="31200:31361" placeholder="INSERT INTO DynamicEvents..." />
+            <marker date="1450116190615" expanded="true" signature="32314:32341" placeholder="DELETE FROM ..." />
+            <marker date="1450116190615" expanded="true" signature="33337:33400" placeholder="DELETE FROM ..." />
+            <marker date="1450116190615" expanded="true" signature="34443:34505" placeholder="DELETE FROM ..." />
+            <marker date="1450116190615" expanded="true" signature="35559:35623" placeholder="DELETE FROM ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Shuffleboard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="docComment;method#getPlayer#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="method#getPlayer#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="docComment;method#getPlayerByName#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="method#getPlayerByName#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="docComment;method#getPlayers#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="method#getPlayers#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="docComment;method#getFriended#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="method#getFriended#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="docComment;method#getFriends#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="method#getFriends#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="docComment;method#getStaticEvents#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="method#getStaticEvents#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="docComment;method#getDynamicEvents#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="method#getDynamicEvents#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="docComment;method#putUser#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="method#putUser#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="docComment;method#putFriends#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="method#putFriends#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="docComment;method#putFriends#1;class#Shuffleboard#0" expanded="false" />
+            <element signature="method#putFriends#1;class#Shuffleboard#0" expanded="false" />
+            <element signature="docComment;method#putStaticEvent#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="method#putStaticEvent#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="docComment;method#putStaticEventLong#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="method#putStaticEventLong#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="docComment;method#putDynamicEvent#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="method#putDynamicEvent#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="docComment;method#putDynamicEventLong#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="docComment;method#editDynamicEvent#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="docComment;method#postUser#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="method#postUser#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="docComment;method#postFriend#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="method#postFriend#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="docComment;method#postStaticEvent#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="method#postStaticEvent#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="docComment;method#postDynamicEvent#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="method#postDynamicEvent#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="docComment;method#deleteUser#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="method#deleteUser#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="docComment;method#deleteFriend#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="method#deleteFriend#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="docComment;method#deleteStaticEvent#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="method#deleteStaticEvent#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="docComment;method#deleteDynamicEvent#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="method#deleteDynamicEvent#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="docComment;method#main#0;class#Shuffleboard#0" expanded="false" />
+            <marker date="1450116190615" expanded="true" signature="1466:1495" placeholder="SELECT * FRO..Users..." />
+            <marker date="1450116190615" expanded="true" signature="2604:2654" placeholder="SELECT id FR..Users..." />
+            <marker date="1450116190615" expanded="true" signature="3559:3578" placeholder="SELECT * FRO..Users..." />
+            <marker date="1450116190615" expanded="true" signature="4675:4748" placeholder="SELECT name ..Friends..." />
+            <marker date="1450116190615" expanded="true" signature="5078:5151" placeholder="SELECT name ..Friends..." />
+            <marker date="1450116190615" expanded="true" signature="6233:6306" placeholder="SELECT name ..Friends..." />
+            <marker date="1450116190615" expanded="true" signature="7360:7524" placeholder="SELECT DISTI..Users..." />
+            <marker date="1450116190615" expanded="true" signature="8796:8964" placeholder="SELECT DISTI..Users..." />
+            <marker date="1450116190615" expanded="true" signature="10557:10586" placeholder="SELECT * FRO..Users..." />
+            <marker date="1450116190615" expanded="true" signature="10724:10770" placeholder="UPDATE Users..." />
+            <marker date="1450116190615" expanded="true" signature="10820:10882" placeholder="UPDATE Users..." />
+            <marker date="1450116190615" expanded="true" signature="11008:11085" placeholder="INSERT INTO Users..." />
+            <marker date="1450116190615" expanded="true" signature="12359:12410" placeholder="SELECT * FRO..Users..." />
+            <marker date="1450116190615" expanded="true" signature="12565:12623" placeholder="SELECT * FRO..Friends..." />
+            <marker date="1450116190615" expanded="true" signature="12808:12867" placeholder="INSERT INTO Friends..." />
+            <marker date="1450116190615" expanded="true" signature="14308:14366" placeholder="SELECT * FRO..Friends..." />
+            <marker date="1450116190615" expanded="true" signature="14534:14593" placeholder="INSERT INTO Friends..." />
+            <marker date="1450116190615" expanded="true" signature="16027:16085" placeholder="SELECT * FRO..StaticEvents..." />
+            <marker date="1450116190615" expanded="true" signature="16253:16316" placeholder="UPDATE Stati..." />
+            <marker date="1450116190615" expanded="true" signature="16372:16433" placeholder="UPDATE Stati..." />
+            <marker date="1450116190615" expanded="true" signature="16489:16542" placeholder="UPDATE Stati..." />
+            <marker date="1450116190615" expanded="true" signature="16598:16653" placeholder="UPDATE Stati..." />
+            <marker date="1450116190615" expanded="true" signature="16799:16961" placeholder="INSERT INTO StaticEvents..." />
+            <marker date="1450116190615" expanded="true" signature="18435:18467" placeholder="SELECT MAX(I..StaticEvents..." />
+            <marker date="1450116190615" expanded="true" signature="18610:18762" placeholder="INSERT INTO StaticEvents..." />
+            <marker date="1450116190615" expanded="true" signature="20148:20207" placeholder="SELECT * FRO..DynamicEvents..." />
+            <marker date="1450116190615" expanded="true" signature="20376:20446" placeholder="UPDATE Dynam..." />
+            <marker date="1450116190615" expanded="true" signature="20503:20561" placeholder="UPDATE Dynam..." />
+            <marker date="1450116190615" expanded="true" signature="20618:20672" placeholder="UPDATE Dynam..." />
+            <marker date="1450116190615" expanded="true" signature="20729:20785" placeholder="UPDATE Dynam..." />
+            <marker date="1450116190615" expanded="true" signature="20934:21099" placeholder="INSERT INTO DynamicEvents..." />
+            <marker date="1450116190615" expanded="true" signature="22473:22532" placeholder="SELECT * FRO..DynamicEvents..." />
+            <marker date="1450116190615" expanded="true" signature="22701:22771" placeholder="UPDATE Dynam..." />
+            <marker date="1450116190615" expanded="true" signature="22828:22886" placeholder="UPDATE Dynam..." />
+            <marker date="1450116190615" expanded="true" signature="22943:22997" placeholder="UPDATE Dynam..." />
+            <marker date="1450116190615" expanded="true" signature="23054:23110" placeholder="UPDATE Dynam..." />
+            <marker date="1450116190615" expanded="true" signature="23261:23331" placeholder="INSERT INTO DynamicEvents..." />
+            <marker date="1450116190615" expanded="true" signature="23261:23421" placeholder="INSERT INTO DynamicEvents..." />
+            <marker date="1450116190615" expanded="true" signature="23261:23422" placeholder="INSERT INTO DynamicEvents..." />
+            <marker date="1450116190615" expanded="true" signature="24777:24816" placeholder="UPDATE Dynam..." />
+            <marker date="1450116190615" expanded="true" signature="24777:24846" placeholder="UPDATE Dynam..." />
+            <marker date="1450116190615" expanded="true" signature="24777:24865" placeholder="UPDATE Dynam..." />
+            <marker date="1450116190615" expanded="true" signature="24777:24873" placeholder="UPDATE Dynam..." />
+            <marker date="1450116190615" expanded="true" signature="24923:24986" placeholder="UPDATE Dynam..." />
+            <marker date="1450116190615" expanded="true" signature="24923:25013" placeholder="UPDATE Dynam..." />
+            <marker date="1450116190615" expanded="true" signature="25063:25124" placeholder="UPDATE Dynam..." />
+            <marker date="1450116190615" expanded="true" signature="25063:25151" placeholder="UPDATE Dynam..." />
+            <marker date="1450116190615" expanded="true" signature="25201:25263" placeholder="UPDATE Dynam..." />
+            <marker date="1450116190615" expanded="true" signature="25201:25290" placeholder="UPDATE Dynam..." />
+            <marker date="1450116190615" expanded="true" signature="26500:26525" placeholder="SELECT MAX(I..Users..." />
+            <marker date="1450116190615" expanded="true" signature="26662:26739" placeholder="INSERT INTO Users..." />
+            <marker date="1450116190615" expanded="true" signature="27776:27835" placeholder="INSERT INTO Friends..." />
+            <marker date="1450116190615" expanded="true" signature="29247:29279" placeholder="SELECT MAX(I..StaticEvents..." />
+            <marker date="1450116190615" expanded="true" signature="29422:29580" placeholder="INSERT INTO StaticEvents..." />
+            <marker date="1450116190615" expanded="true" signature="31023:31056" placeholder="SELECT MAX(I..DynamicEvents..." />
+            <marker date="1450116190615" expanded="true" signature="31200:31361" placeholder="INSERT INTO DynamicEvents..." />
+            <marker date="1450116190615" expanded="true" signature="32314:32341" placeholder="DELETE FROM ..." />
+            <marker date="1450116190615" expanded="true" signature="33337:33400" placeholder="DELETE FROM ..." />
+            <marker date="1450116190615" expanded="true" signature="34443:34505" placeholder="DELETE FROM ..." />
+            <marker date="1450116190615" expanded="true" signature="35559:35623" placeholder="DELETE FROM ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Shuffleboard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="docComment;method#getPlayer#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="method#getPlayer#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="docComment;method#getPlayerByName#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="method#getPlayerByName#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="docComment;method#getPlayers#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="method#getPlayers#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="docComment;method#getFriended#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="method#getFriended#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="docComment;method#getFriends#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="method#getFriends#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="docComment;method#getStaticEvents#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="method#getStaticEvents#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="docComment;method#getDynamicEvents#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="method#getDynamicEvents#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="docComment;method#putUser#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="method#putUser#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="docComment;method#putFriends#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="method#putFriends#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="docComment;method#putFriends#1;class#Shuffleboard#0" expanded="false" />
+            <element signature="method#putFriends#1;class#Shuffleboard#0" expanded="false" />
+            <element signature="docComment;method#putStaticEvent#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="method#putStaticEvent#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="docComment;method#putStaticEventLong#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="method#putStaticEventLong#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="docComment;method#putDynamicEvent#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="method#putDynamicEvent#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="docComment;method#putDynamicEventLong#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="docComment;method#editDynamicEvent#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="docComment;method#postUser#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="method#postUser#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="docComment;method#postFriend#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="method#postFriend#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="docComment;method#postStaticEvent#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="method#postStaticEvent#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="docComment;method#postDynamicEvent#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="method#postDynamicEvent#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="docComment;method#deleteUser#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="method#deleteUser#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="docComment;method#deleteFriend#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="method#deleteFriend#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="docComment;method#deleteStaticEvent#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="method#deleteStaticEvent#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="docComment;method#deleteDynamicEvent#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="method#deleteDynamicEvent#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="docComment;method#main#0;class#Shuffleboard#0" expanded="false" />
+            <marker date="1450116190615" expanded="true" signature="1466:1495" placeholder="SELECT * FRO..Users..." />
+            <marker date="1450116190615" expanded="true" signature="2604:2654" placeholder="SELECT id FR..Users..." />
+            <marker date="1450116190615" expanded="true" signature="3559:3578" placeholder="SELECT * FRO..Users..." />
+            <marker date="1450116190615" expanded="true" signature="4675:4748" placeholder="SELECT name ..Friends..." />
+            <marker date="1450116190615" expanded="true" signature="5078:5151" placeholder="SELECT name ..Friends..." />
+            <marker date="1450116190615" expanded="true" signature="6233:6306" placeholder="SELECT name ..Friends..." />
+            <marker date="1450116190615" expanded="true" signature="7360:7524" placeholder="SELECT DISTI..Users..." />
+            <marker date="1450116190615" expanded="true" signature="8796:8964" placeholder="SELECT DISTI..Users..." />
+            <marker date="1450116190615" expanded="true" signature="10557:10586" placeholder="SELECT * FRO..Users..." />
+            <marker date="1450116190615" expanded="true" signature="10724:10770" placeholder="UPDATE Users..." />
+            <marker date="1450116190615" expanded="true" signature="10820:10882" placeholder="UPDATE Users..." />
+            <marker date="1450116190615" expanded="true" signature="11008:11085" placeholder="INSERT INTO Users..." />
+            <marker date="1450116190615" expanded="true" signature="12359:12410" placeholder="SELECT * FRO..Users..." />
+            <marker date="1450116190615" expanded="true" signature="12565:12623" placeholder="SELECT * FRO..Friends..." />
+            <marker date="1450116190615" expanded="true" signature="12808:12867" placeholder="INSERT INTO Friends..." />
+            <marker date="1450116190615" expanded="true" signature="14308:14366" placeholder="SELECT * FRO..Friends..." />
+            <marker date="1450116190615" expanded="true" signature="14534:14593" placeholder="INSERT INTO Friends..." />
+            <marker date="1450116190615" expanded="true" signature="16027:16085" placeholder="SELECT * FRO..StaticEvents..." />
+            <marker date="1450116190615" expanded="true" signature="16253:16316" placeholder="UPDATE Stati..." />
+            <marker date="1450116190615" expanded="true" signature="16372:16433" placeholder="UPDATE Stati..." />
+            <marker date="1450116190615" expanded="true" signature="16489:16542" placeholder="UPDATE Stati..." />
+            <marker date="1450116190615" expanded="true" signature="16598:16653" placeholder="UPDATE Stati..." />
+            <marker date="1450116190615" expanded="true" signature="16799:16961" placeholder="INSERT INTO StaticEvents..." />
+            <marker date="1450116190615" expanded="true" signature="18435:18467" placeholder="SELECT MAX(I..StaticEvents..." />
+            <marker date="1450116190615" expanded="true" signature="18610:18762" placeholder="INSERT INTO StaticEvents..." />
+            <marker date="1450116190615" expanded="true" signature="20148:20207" placeholder="SELECT * FRO..DynamicEvents..." />
+            <marker date="1450116190615" expanded="true" signature="20376:20446" placeholder="UPDATE Dynam..." />
+            <marker date="1450116190615" expanded="true" signature="20503:20561" placeholder="UPDATE Dynam..." />
+            <marker date="1450116190615" expanded="true" signature="20618:20672" placeholder="UPDATE Dynam..." />
+            <marker date="1450116190615" expanded="true" signature="20729:20785" placeholder="UPDATE Dynam..." />
+            <marker date="1450116190615" expanded="true" signature="20934:21099" placeholder="INSERT INTO DynamicEvents..." />
+            <marker date="1450116190615" expanded="true" signature="22473:22532" placeholder="SELECT * FRO..DynamicEvents..." />
+            <marker date="1450116190615" expanded="true" signature="22701:22771" placeholder="UPDATE Dynam..." />
+            <marker date="1450116190615" expanded="true" signature="22828:22886" placeholder="UPDATE Dynam..." />
+            <marker date="1450116190615" expanded="true" signature="22943:22997" placeholder="UPDATE Dynam..." />
+            <marker date="1450116190615" expanded="true" signature="23054:23110" placeholder="UPDATE Dynam..." />
+            <marker date="1450116190615" expanded="true" signature="23261:23331" placeholder="INSERT INTO DynamicEvents..." />
+            <marker date="1450116190615" expanded="true" signature="23261:23421" placeholder="INSERT INTO DynamicEvents..." />
+            <marker date="1450116190615" expanded="true" signature="23261:23422" placeholder="INSERT INTO DynamicEvents..." />
+            <marker date="1450116190615" expanded="true" signature="24777:24816" placeholder="UPDATE Dynam..." />
+            <marker date="1450116190615" expanded="true" signature="24777:24846" placeholder="UPDATE Dynam..." />
+            <marker date="1450116190615" expanded="true" signature="24777:24865" placeholder="UPDATE Dynam..." />
+            <marker date="1450116190615" expanded="true" signature="24777:24873" placeholder="UPDATE Dynam..." />
+            <marker date="1450116190615" expanded="true" signature="24923:24986" placeholder="UPDATE Dynam..." />
+            <marker date="1450116190615" expanded="true" signature="24923:25013" placeholder="UPDATE Dynam..." />
+            <marker date="1450116190615" expanded="true" signature="25063:25124" placeholder="UPDATE Dynam..." />
+            <marker date="1450116190615" expanded="true" signature="25063:25151" placeholder="UPDATE Dynam..." />
+            <marker date="1450116190615" expanded="true" signature="25201:25263" placeholder="UPDATE Dynam..." />
+            <marker date="1450116190615" expanded="true" signature="25201:25290" placeholder="UPDATE Dynam..." />
+            <marker date="1450116190615" expanded="true" signature="26500:26525" placeholder="SELECT MAX(I..Users..." />
+            <marker date="1450116190615" expanded="true" signature="26662:26739" placeholder="INSERT INTO Users..." />
+            <marker date="1450116190615" expanded="true" signature="27776:27835" placeholder="INSERT INTO Friends..." />
+            <marker date="1450116190615" expanded="true" signature="29247:29279" placeholder="SELECT MAX(I..StaticEvents..." />
+            <marker date="1450116190615" expanded="true" signature="29422:29580" placeholder="INSERT INTO StaticEvents..." />
+            <marker date="1450116190615" expanded="true" signature="31023:31056" placeholder="SELECT MAX(I..DynamicEvents..." />
+            <marker date="1450116190615" expanded="true" signature="31200:31361" placeholder="INSERT INTO DynamicEvents..." />
+            <marker date="1450116190615" expanded="true" signature="32314:32341" placeholder="DELETE FROM ..." />
+            <marker date="1450116190615" expanded="true" signature="33337:33400" placeholder="DELETE FROM ..." />
+            <marker date="1450116190615" expanded="true" signature="34443:34505" placeholder="DELETE FROM ..." />
+            <marker date="1450116190615" expanded="true" signature="35559:35623" placeholder="DELETE FROM ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Shuffleboard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="docComment;method#getPlayer#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="method#getPlayer#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="docComment;method#getPlayerByName#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="method#getPlayerByName#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="docComment;method#getPlayers#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="method#getPlayers#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="docComment;method#getFriended#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="method#getFriended#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="docComment;method#getFriends#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="method#getFriends#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="docComment;method#getStaticEvents#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="method#getStaticEvents#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="docComment;method#getDynamicEvents#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="method#getDynamicEvents#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="docComment;method#putUser#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="method#putUser#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="docComment;method#putFriends#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="method#putFriends#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="docComment;method#putFriends#1;class#Shuffleboard#0" expanded="false" />
+            <element signature="method#putFriends#1;class#Shuffleboard#0" expanded="false" />
+            <element signature="docComment;method#putStaticEvent#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="method#putStaticEvent#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="docComment;method#putStaticEventLong#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="method#putStaticEventLong#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="docComment;method#putDynamicEvent#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="method#putDynamicEvent#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="docComment;method#putDynamicEventLong#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="docComment;method#editDynamicEvent#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="docComment;method#postUser#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="method#postUser#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="docComment;method#postFriend#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="method#postFriend#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="docComment;method#postStaticEvent#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="method#postStaticEvent#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="docComment;method#postDynamicEvent#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="method#postDynamicEvent#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="docComment;method#deleteUser#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="method#deleteUser#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="docComment;method#deleteFriend#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="method#deleteFriend#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="docComment;method#deleteStaticEvent#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="method#deleteStaticEvent#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="docComment;method#deleteDynamicEvent#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="method#deleteDynamicEvent#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="docComment;method#main#0;class#Shuffleboard#0" expanded="false" />
+            <marker date="1450116190615" expanded="true" signature="1466:1495" placeholder="SELECT * FRO..Users..." />
+            <marker date="1450116190615" expanded="true" signature="2604:2654" placeholder="SELECT id FR..Users..." />
+            <marker date="1450116190615" expanded="true" signature="3559:3578" placeholder="SELECT * FRO..Users..." />
+            <marker date="1450116190615" expanded="true" signature="4675:4748" placeholder="SELECT name ..Friends..." />
+            <marker date="1450116190615" expanded="true" signature="5078:5151" placeholder="SELECT name ..Friends..." />
+            <marker date="1450116190615" expanded="true" signature="6233:6306" placeholder="SELECT name ..Friends..." />
+            <marker date="1450116190615" expanded="true" signature="7360:7524" placeholder="SELECT DISTI..Users..." />
+            <marker date="1450116190615" expanded="true" signature="8796:8964" placeholder="SELECT DISTI..Users..." />
+            <marker date="1450116190615" expanded="true" signature="10557:10586" placeholder="SELECT * FRO..Users..." />
+            <marker date="1450116190615" expanded="true" signature="10724:10770" placeholder="UPDATE Users..." />
+            <marker date="1450116190615" expanded="true" signature="10820:10882" placeholder="UPDATE Users..." />
+            <marker date="1450116190615" expanded="true" signature="11008:11085" placeholder="INSERT INTO Users..." />
+            <marker date="1450116190615" expanded="true" signature="12359:12410" placeholder="SELECT * FRO..Users..." />
+            <marker date="1450116190615" expanded="true" signature="12565:12623" placeholder="SELECT * FRO..Friends..." />
+            <marker date="1450116190615" expanded="true" signature="12808:12867" placeholder="INSERT INTO Friends..." />
+            <marker date="1450116190615" expanded="true" signature="14308:14366" placeholder="SELECT * FRO..Friends..." />
+            <marker date="1450116190615" expanded="true" signature="14534:14593" placeholder="INSERT INTO Friends..." />
+            <marker date="1450116190615" expanded="true" signature="16027:16085" placeholder="SELECT * FRO..StaticEvents..." />
+            <marker date="1450116190615" expanded="true" signature="16253:16316" placeholder="UPDATE Stati..." />
+            <marker date="1450116190615" expanded="true" signature="16372:16433" placeholder="UPDATE Stati..." />
+            <marker date="1450116190615" expanded="true" signature="16489:16542" placeholder="UPDATE Stati..." />
+            <marker date="1450116190615" expanded="true" signature="16598:16653" placeholder="UPDATE Stati..." />
+            <marker date="1450116190615" expanded="true" signature="16799:16961" placeholder="INSERT INTO StaticEvents..." />
+            <marker date="1450116190615" expanded="true" signature="18435:18467" placeholder="SELECT MAX(I..StaticEvents..." />
+            <marker date="1450116190615" expanded="true" signature="18610:18762" placeholder="INSERT INTO StaticEvents..." />
+            <marker date="1450116190615" expanded="true" signature="20148:20207" placeholder="SELECT * FRO..DynamicEvents..." />
+            <marker date="1450116190615" expanded="true" signature="20376:20446" placeholder="UPDATE Dynam..." />
+            <marker date="1450116190615" expanded="true" signature="20503:20561" placeholder="UPDATE Dynam..." />
+            <marker date="1450116190615" expanded="true" signature="20618:20672" placeholder="UPDATE Dynam..." />
+            <marker date="1450116190615" expanded="true" signature="20729:20785" placeholder="UPDATE Dynam..." />
+            <marker date="1450116190615" expanded="true" signature="20934:21099" placeholder="INSERT INTO DynamicEvents..." />
+            <marker date="1450116190615" expanded="true" signature="22473:22532" placeholder="SELECT * FRO..DynamicEvents..." />
+            <marker date="1450116190615" expanded="true" signature="22701:22771" placeholder="UPDATE Dynam..." />
+            <marker date="1450116190615" expanded="true" signature="22828:22886" placeholder="UPDATE Dynam..." />
+            <marker date="1450116190615" expanded="true" signature="22943:22997" placeholder="UPDATE Dynam..." />
+            <marker date="1450116190615" expanded="true" signature="23054:23110" placeholder="UPDATE Dynam..." />
+            <marker date="1450116190615" expanded="true" signature="23261:23331" placeholder="INSERT INTO DynamicEvents..." />
+            <marker date="1450116190615" expanded="true" signature="23261:23421" placeholder="INSERT INTO DynamicEvents..." />
+            <marker date="1450116190615" expanded="true" signature="23261:23422" placeholder="INSERT INTO DynamicEvents..." />
+            <marker date="1450116190615" expanded="true" signature="24777:24816" placeholder="UPDATE Dynam..." />
+            <marker date="1450116190615" expanded="true" signature="24777:24846" placeholder="UPDATE Dynam..." />
+            <marker date="1450116190615" expanded="true" signature="24777:24865" placeholder="UPDATE Dynam..." />
+            <marker date="1450116190615" expanded="true" signature="24777:24873" placeholder="UPDATE Dynam..." />
+            <marker date="1450116190615" expanded="true" signature="24923:24986" placeholder="UPDATE Dynam..." />
+            <marker date="1450116190615" expanded="true" signature="24923:25013" placeholder="UPDATE Dynam..." />
+            <marker date="1450116190615" expanded="true" signature="25063:25124" placeholder="UPDATE Dynam..." />
+            <marker date="1450116190615" expanded="true" signature="25063:25151" placeholder="UPDATE Dynam..." />
+            <marker date="1450116190615" expanded="true" signature="25201:25263" placeholder="UPDATE Dynam..." />
+            <marker date="1450116190615" expanded="true" signature="25201:25290" placeholder="UPDATE Dynam..." />
+            <marker date="1450116190615" expanded="true" signature="26500:26525" placeholder="SELECT MAX(I..Users..." />
+            <marker date="1450116190615" expanded="true" signature="26662:26739" placeholder="INSERT INTO Users..." />
+            <marker date="1450116190615" expanded="true" signature="27776:27835" placeholder="INSERT INTO Friends..." />
+            <marker date="1450116190615" expanded="true" signature="29247:29279" placeholder="SELECT MAX(I..StaticEvents..." />
+            <marker date="1450116190615" expanded="true" signature="29422:29580" placeholder="INSERT INTO StaticEvents..." />
+            <marker date="1450116190615" expanded="true" signature="31023:31056" placeholder="SELECT MAX(I..DynamicEvents..." />
+            <marker date="1450116190615" expanded="true" signature="31200:31361" placeholder="INSERT INTO DynamicEvents..." />
+            <marker date="1450116190615" expanded="true" signature="32314:32341" placeholder="DELETE FROM ..." />
+            <marker date="1450116190615" expanded="true" signature="33337:33400" placeholder="DELETE FROM ..." />
+            <marker date="1450116190615" expanded="true" signature="34443:34505" placeholder="DELETE FROM ..." />
+            <marker date="1450116190615" expanded="true" signature="35559:35623" placeholder="DELETE FROM ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Shuffleboard.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Shuffleboard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.20072992">
+          <caret line="508" column="52" selection-start-line="508" selection-start-column="52" selection-end-line="508" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="docComment;method#getPlayer#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="method#getPlayer#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="docComment;method#getPlayerByName#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="method#getPlayerByName#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="docComment;method#getPlayers#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="method#getPlayers#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="docComment;method#getFriended#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="method#getFriended#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="docComment;method#getFriends#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="method#getFriends#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="docComment;method#getStaticEvents#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="method#getStaticEvents#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="docComment;method#getDynamicEvents#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="method#getDynamicEvents#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="docComment;method#putUser#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="method#putUser#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="docComment;method#putFriends#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="method#putFriends#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="docComment;method#putFriends#1;class#Shuffleboard#0" expanded="false" />
+            <element signature="method#putFriends#1;class#Shuffleboard#0" expanded="false" />
+            <element signature="docComment;method#putStaticEvent#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="method#putStaticEvent#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="docComment;method#putStaticEventLong#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="method#putStaticEventLong#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="docComment;method#putDynamicEvent#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="method#putDynamicEvent#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="docComment;method#putDynamicEventLong#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="docComment;method#editDynamicEvent#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="docComment;method#postUser#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="method#postUser#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="docComment;method#postFriend#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="method#postFriend#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="docComment;method#postStaticEvent#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="method#postStaticEvent#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="docComment;method#postDynamicEvent#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="method#postDynamicEvent#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="docComment;method#deleteUser#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="method#deleteUser#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="docComment;method#deleteFriend#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="method#deleteFriend#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="docComment;method#deleteStaticEvent#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="method#deleteStaticEvent#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="docComment;method#deleteDynamicEvent#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="method#deleteDynamicEvent#0;class#Shuffleboard#0" expanded="false" />
+            <element signature="docComment;method#main#0;class#Shuffleboard#0" expanded="false" />
+            <marker date="1450116190615" expanded="true" signature="1466:1495" placeholder="SELECT * FRO..Users..." />
+            <marker date="1450116190615" expanded="true" signature="2604:2654" placeholder="SELECT id FR..Users..." />
+            <marker date="1450116190615" expanded="true" signature="3559:3578" placeholder="SELECT * FRO..Users..." />
+            <marker date="1450116190615" expanded="true" signature="4675:4748" placeholder="SELECT name ..Friends..." />
+            <marker date="1450116190615" expanded="true" signature="5078:5151" placeholder="SELECT name ..Friends..." />
+            <marker date="1450116190615" expanded="true" signature="6233:6306" placeholder="SELECT name ..Friends..." />
+            <marker date="1450116190615" expanded="true" signature="7360:7524" placeholder="SELECT DISTI..Users..." />
+            <marker date="1450116190615" expanded="true" signature="8796:8964" placeholder="SELECT DISTI..Users..." />
+            <marker date="1450116190615" expanded="true" signature="10557:10586" placeholder="SELECT * FRO..Users..." />
+            <marker date="1450116190615" expanded="true" signature="10724:10770" placeholder="UPDATE Users..." />
+            <marker date="1450116190615" expanded="true" signature="10820:10882" placeholder="UPDATE Users..." />
+            <marker date="1450116190615" expanded="true" signature="11008:11085" placeholder="INSERT INTO Users..." />
+            <marker date="1450116190615" expanded="true" signature="12359:12410" placeholder="SELECT * FRO..Users..." />
+            <marker date="1450116190615" expanded="true" signature="12565:12623" placeholder="SELECT * FRO..Friends..." />
+            <marker date="1450116190615" expanded="true" signature="12808:12867" placeholder="INSERT INTO Friends..." />
+            <marker date="1450116190615" expanded="true" signature="14308:14366" placeholder="SELECT * FRO..Friends..." />
+            <marker date="1450116190615" expanded="true" signature="14534:14593" placeholder="INSERT INTO Friends..." />
+            <marker date="1450116190615" expanded="true" signature="16027:16085" placeholder="SELECT * FRO..StaticEvents..." />
+            <marker date="1450116190615" expanded="true" signature="16253:16316" placeholder="UPDATE Stati..." />
+            <marker date="1450116190615" expanded="true" signature="16372:16433" placeholder="UPDATE Stati..." />
+            <marker date="1450116190615" expanded="true" signature="16489:16542" placeholder="UPDATE Stati..." />
+            <marker date="1450116190615" expanded="true" signature="16598:16653" placeholder="UPDATE Stati..." />
+            <marker date="1450116190615" expanded="true" signature="16799:16961" placeholder="INSERT INTO StaticEvents..." />
+            <marker date="1450116190615" expanded="true" signature="18435:18467" placeholder="SELECT MAX(I..StaticEvents..." />
+            <marker date="1450116190615" expanded="true" signature="18610:18762" placeholder="INSERT INTO StaticEvents..." />
+            <marker date="1450116190615" expanded="true" signature="20148:20207" placeholder="SELECT * FRO..DynamicEvents..." />
+            <marker date="1450116190615" expanded="true" signature="20376:20446" placeholder="UPDATE Dynam..." />
+            <marker date="1450116190615" expanded="true" signature="20503:20561" placeholder="UPDATE Dynam..." />
+            <marker date="1450116190615" expanded="true" signature="20618:20672" placeholder="UPDATE Dynam..." />
+            <marker date="1450116190615" expanded="true" signature="20729:20785" placeholder="UPDATE Dynam..." />
+            <marker date="1450116190615" expanded="true" signature="20934:21099" placeholder="INSERT INTO DynamicEvents..." />
+            <marker date="1450116190615" expanded="true" signature="22473:22532" placeholder="SELECT * FRO..DynamicEvents..." />
+            <marker date="1450116190615" expanded="true" signature="22701:22771" placeholder="UPDATE Dynam..." />
+            <marker date="1450116190615" expanded="true" signature="22828:22886" placeholder="UPDATE Dynam..." />
+            <marker date="1450116190615" expanded="true" signature="22943:22997" placeholder="UPDATE Dynam..." />
+            <marker date="1450116190615" expanded="true" signature="23054:23110" placeholder="UPDATE Dynam..." />
+            <marker date="1450116190615" expanded="true" signature="23261:23331" placeholder="INSERT INTO DynamicEvents..." />
+            <marker date="1450116190615" expanded="true" signature="23261:23421" placeholder="INSERT INTO DynamicEvents..." />
+            <marker date="1450116190615" expanded="true" signature="23261:23422" placeholder="INSERT INTO DynamicEvents..." />
+            <marker date="1450116190615" expanded="true" signature="24777:24816" placeholder="UPDATE Dynam..." />
+            <marker date="1450116190615" expanded="true" signature="24777:24846" placeholder="UPDATE Dynam..." />
+            <marker date="1450116190615" expanded="true" signature="24777:24865" placeholder="UPDATE Dynam..." />
+            <marker date="1450116190615" expanded="true" signature="24777:24873" placeholder="UPDATE Dynam..." />
+            <marker date="1450116190615" expanded="true" signature="24923:24986" placeholder="UPDATE Dynam..." />
+            <marker date="1450116190615" expanded="true" signature="24923:25013" placeholder="UPDATE Dynam..." />
+            <marker date="1450116190615" expanded="true" signature="25063:25124" placeholder="UPDATE Dynam..." />
+            <marker date="1450116190615" expanded="true" signature="25063:25151" placeholder="UPDATE Dynam..." />
+            <marker date="1450116190615" expanded="true" signature="25201:25263" placeholder="UPDATE Dynam..." />
+            <marker date="1450116190615" expanded="true" signature="25201:25290" placeholder="UPDATE Dynam..." />
+            <marker date="1450116190615" expanded="true" signature="26500:26525" placeholder="SELECT MAX(I..Users..." />
+            <marker date="1450116190615" expanded="true" signature="26662:26739" placeholder="INSERT INTO Users..." />
+            <marker date="1450116190615" expanded="true" signature="27776:27835" placeholder="INSERT INTO Friends..." />
+            <marker date="1450116190615" expanded="true" signature="29247:29279" placeholder="SELECT MAX(I..StaticEvents..." />
+            <marker date="1450116190615" expanded="true" signature="29422:29580" placeholder="INSERT INTO StaticEvents..." />
+            <marker date="1450116190615" expanded="true" signature="31023:31056" placeholder="SELECT MAX(I..DynamicEvents..." />
+            <marker date="1450116190615" expanded="true" signature="31200:31361" placeholder="INSERT INTO DynamicEvents..." />
+            <marker date="1450116190615" expanded="true" signature="32314:32341" placeholder="DELETE FROM ..." />
+            <marker date="1450116190615" expanded="true" signature="33337:33400" placeholder="DELETE FROM ..." />
+            <marker date="1450116190615" expanded="true" signature="34443:34505" placeholder="DELETE FROM ..." />
+            <marker date="1450116190615" expanded="true" signature="35559:35623" placeholder="DELETE FROM ..." />
           </folding>
         </state>
       </provider>

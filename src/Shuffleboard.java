@@ -415,6 +415,43 @@ public class Shuffleboard {
      * largest ID and adding 1 to that.
      *
      * @param id        the ID for the user
+     * @param id        the ID for the event being edited
+     * @param data      The data for the event in string format separated by "__"
+     * @return status message
+     */
+    @PUT
+    @Path("/user/{id}/events/static/edit/{eventID}/{data}")
+    @Consumes("text/plain")
+    @Produces("text/plain")
+    public String editStaticEvent(@PathParam("id") int id, @PathParam("eventID") int eventID, @PathParam("data") String data) {
+        String result;
+        String[] dataVals = data.split("__");
+        dataVals[3] = dataVals[3].replace("%20", " ");
+        try {
+            Class.forName("org.postgresql.Driver");
+            Connection connection = DriverManager.getConnection(DB_URI, DB_LOGIN_ID, DB_PASSWORD);
+            Statement statement = connection.createStatement();
+            statement.executeUpdate("UPDATE StaticEvents SET startTime=" + dataVals[0] + ", stopTime=" + dataVals[1] +
+                    ", days='" + dataVals[2] + "', label='" + dataVals[3] + "' WHERE userID=" + id + " AND id=" + eventID);
+            System.out.println("UPDATE StaticEvents SET startTime=" + dataVals[0] + ", stopTime=" + dataVals[1] +
+                    ", days='" + dataVals[2] + "', '" + dataVals[3] + "'");
+            statement.close();
+            connection.close();
+            result = "Static event " + eventID + " for the user with ID " + id + " edited...";
+        } catch (Exception e) {
+            result = e.getMessage();
+        }
+        return result;
+    }
+
+    /**
+     * POST method for creating a static event, with a new, unique id, for the User whose userid is the path parameter
+     * number.
+     * <p/>
+     * The method creates a new, unique ID by querying the StaticEvents table for the
+     * largest ID and adding 1 to that.
+     *
+     * @param id        the ID for the user
      * @param data      The data for the event in string format separated by "__"
      * @return status message
      */
@@ -819,7 +856,7 @@ public class Shuffleboard {
      * @throws IOException
      */
     public static void main(String[] args) throws IOException {
-        HttpServer server = HttpServerFactory.create("http://153.106.160.71:9999/");
+        HttpServer server = HttpServerFactory.create("http://10.0.0.31:9999/");
         server.start();
 
         System.out.println("Server running...");
